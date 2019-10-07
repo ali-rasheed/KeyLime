@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    /* flex-wrap: wrap; */
+}
+
+.grid-container .grid-item {
+    flex-grow: 1;
+    /* order: ; */
+    /* flex-basis: ; */
+}
+
+/* -------------media queries-------------- */
+@media screen and (min-width: 768px) {}
