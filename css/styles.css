@@ -1,4 +1,34 @@
-
+.top-bar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  border: 1px solid lightgrey;
+  width: 100%;
+}
+.logo-div {
+  top: 0px;
+  left: 0px;
+  border: 1px solid lightgrey;
+  width: 100%;
+  text-align: center;
+}
+nav {
+  background-color: #FFFFFF;
+  overflow: hidden;
+  top: 100px;
+  width: 100%;
+  padding:15px;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  padding:5rem;
+}
+main {
+  margin-top: 7rem;
+  padding: 2rem;
+}
 
 
 
