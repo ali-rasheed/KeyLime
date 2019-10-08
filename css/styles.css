@@ -2,10 +2,10 @@
   position: fixed;
   top: 0px;
   left: 0px;
-
+  background-color: #FFFFFF;
   width: 100%;
 }
-.logo-div {
+.logo-bar {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -41,13 +41,38 @@ a.active {
 }
 
 main {
-  margin-top: 6.5rem;
-  padding: 2rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-top: 10.5rem;
 }
-
-
-
-
+body {
+  background-color: #F5F5F5;
+}
+.brand-div {
+  padding: 3rem;
+  background-color: #FFFFFF;
+  margin-bottom: 4rem;
+}
+.logo-div {
+  padding: 3rem;
+  background-color: #FFFFFF;
+  margin-bottom: 4rem;
+}
+.color-palette-div {
+  padding: 3rem;
+  background-color: #FFFFFF;
+  margin-bottom: 4rem;
+}
+.typeface-div {
+  padding: 3rem;
+  background-color: #FFFFFF;
+  margin-bottom: 4rem;
+}
+.grid-div {
+  padding: 3rem;
+  background-color: #FFFFFF;
+  margin-bottom: 4rem;
+}
 
 
 /*---------------media queries------------------ */
