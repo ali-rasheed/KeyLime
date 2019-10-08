@@ -41,8 +41,8 @@ a.active {
 }
 
 main {
-  padding-left: 15rem;
-  padding-right: 15rem;
+  padding-left: 15vw;
+  padding-right: 15vw;
   padding-top: 10.5rem;
 }
 body {
@@ -65,8 +65,16 @@ body {
 }
 .typeface-div {
   padding: 3rem;
+  padding-bottom: 6rem;
   background-color: #FFFFFF;
   margin-bottom: 4rem;
+}
+.font-div {
+  float: left;
+  width: 25vw;
+}
+.hierarchy-div {
+  float:left
 }
 .grid-div {
   padding: 3rem;
