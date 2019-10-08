@@ -92,6 +92,9 @@ body {
   background-color: #FFFFFF;
   margin-bottom: 4rem;
 }
+#subscription {
+  padding-left: 10rem;
+}
 .grid-div {
   padding: 3rem;
   background-color: #FFFFFF;
@@ -144,7 +147,7 @@ body {
   padding: 5px 20px 15px 20px;
   border: 1px solid lightgrey;
   border-radius: 3px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.04);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
 }
 
 input[type=text] {
