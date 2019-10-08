@@ -23,7 +23,7 @@ nav {
 nav a {
   text-decoration: none;
   color: black;
-  padding:5rem;
+  padding:2rem;
 }
 nav a:hover, nav a:focus {
   text-decoration: none;
@@ -71,10 +71,26 @@ body {
 }
 .font-div {
   float: left;
-  width: 25vw;
+  width: 32.5vw;
 }
 .hierarchy-div {
   float:left
+}
+.interactive-elements-div {
+  padding: 3rem;
+  padding-bottom: 22rem;
+  background-color: #FFFFFF;
+  margin-bottom: 4rem;
+}
+.text-elements-div {
+  padding: 3rem;
+  background-color: #FFFFFF;
+  margin-bottom: 4rem;
+}
+.combined-elements-div {
+  padding: 3rem;
+  background-color: #FFFFFF;
+  margin-bottom: 4rem;
 }
 .grid-div {
   padding: 3rem;
