@@ -2,8 +2,8 @@
   position: fixed;
   top: 0px;
   left: 0px;
+
   width: 100%;
-  background-color: #FFFFFF;
 }
 .logo-div {
   top: 0px;
@@ -12,7 +12,7 @@
   text-align: center;
 }
 nav {
-
+  background-color: #FFFFFF;
   overflow: hidden;
   top: 100px;
   width: 100%;
@@ -25,10 +25,27 @@ nav a {
   color: black;
   padding:5rem;
 }
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+a:focus {
+  background-color: #89C97B;
+}
+a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
 main {
   margin-top: 6.5rem;
   padding: 2rem;
 }
+
+
 
 
 
