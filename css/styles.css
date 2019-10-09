@@ -322,7 +322,10 @@ section section {
   padding-top: 7rem;
   flex-grow: 1;
   background-color: #282828;
+  color: white;
 }
-
+.color-text {
+  padding-left:1rem;
+}
 
 /*---------------media queries------------------ */
