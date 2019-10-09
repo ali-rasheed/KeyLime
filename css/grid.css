@@ -4,7 +4,26 @@
 
 .grid-container {
     display: grid;
+    grid-template-columns: repeat(12,1fr);
     /* flex-wrap: wrap; */
+}
+
+.x11-12 {}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+
 }
 
 .grid-container .grid-item {
