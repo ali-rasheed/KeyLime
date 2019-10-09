@@ -1,9 +1,10 @@
 /* TEXT STYLING */
-
+--primary-color = white;
 h1,
 h2,
 h3,
 h4,
+h5,
 h6 {
   font-family: Jost;
   font-weight: 600
@@ -280,13 +281,10 @@ label {
   min-width: 1rem;
 }
 
-main section {
+main section h1 {
   text-align: center
 }
 
-section section {
-  text-align: left;
-}
 
 /* ~~~ https://www.w3schools.com/howto/howto_css_checkout_form.asp used for checkout form  ~~~ */
 
