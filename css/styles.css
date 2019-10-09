@@ -1,9 +1,10 @@
 /* TEXT STYLING */
-
+--primary-color = white;
 h1,
 h2,
 h3,
 h4,
+h5,
 h6 {
   font-family: Jost;
   font-weight: 600
@@ -283,6 +284,9 @@ label {
   grid-column: span;
   min-height: 1rem;
   min-width: 1rem;
+}
+main section h1 {
+  text-align: center
 }
 
 main section {
