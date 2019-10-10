@@ -1,16 +1,19 @@
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
+
 /* TEXT STYLING */
---primary-color = white;
+:root{
+  --primary-color : black;
+  --secondary-color: #F5F5F5;
+--primary-font:"Jost";
+--secondary-font:"Be Vietnam";
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: Jost;
-  font-weight: 600
+  font-family: var(--primary-font);
 }
 h1
 {
@@ -22,9 +25,9 @@ h1 strong {
 
 p,
 a {
-  font-family: Quicksand;
+  font-family: var(--secondary-font);
   font-weight: 400;
-  font-size: 0.9rem
+  font-size: 0.9rem;
 
 }
 p {
