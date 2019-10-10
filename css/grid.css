@@ -4,7 +4,7 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
+    grid-template-columns: repeat(12, 1fr);
     /* flex-wrap: wrap; */
 }
 
@@ -23,13 +23,30 @@
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-
+    height: 100%
 }
 
 .grid-container .grid-item {
     flex-grow: 1;
     /* order: ; */
     /* flex-basis: ; */
+}
+
+#example-grid {
+    column-gap: 1rem;
+    row-gap: rem;
+    width: 100%;
+    /* min-height: 1rem; */
+    /* height:  */
+}
+
+#example-grid div {
+    background-color: var(--secondary-color);
+    grid-column: span;
+    min-height: 50vh;
+    flex-basis: 8.2%;
+    text-align: center;
+    line-height: 50vh;
 }
 
 /* -------------media queries-------------- */
