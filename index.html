@@ -184,33 +184,52 @@
       <section class="first interactive-elements-div">
         <div id="interactive-elements">
           <h1>Interactive Elements</h1>
-          <div class="column1-div">
+          <div class="column1-div text-link">
             <h3> In-Text Link </h3>
-            <br>
+            <p>
+                <a href="#">
+                    This</a> is a link
+            </p>
+            <p class="bright-on-dark">
+                <a href="#">
+                    This</a> is a link
+            </p>
           </div>
-          <div class="column2-div">
-            <h3> Navigation Link </h3>
-            <br>
           </div>
           <div class="column1-div">
-            <h3> CSS Selector </h3>
-            <br>
-          </div>
+            <h3> Button Link </h3>
+            <a href="#thing" class="button-link">
+                This is a link
+            </a>          </div>
           <div class="column2-div">
             <h3> Submit/Reset Buttons </h3>
-            <br>
-          </div>
+            <div class="button-container">
+
+              <button type="button">Submit</button>
+              <button type="button">Reset</button>
+            </div>
+  </div>
           <div class="column1-div">
             <h3> Text Input Field </h3>
-            <br>
+            <label for="thing">Enter product number</label>
+
+            <input type="text" id="thing" name="product#">
+<br>
           </div>
           <div class="column2-div">
             <h3> Radio Buttons </h3>
-            <br>
+            <input type="radio" id="paperback" name="class" value="paperback" checked>
+            <label for="paperback">Basic</label>
+            <input type="radio" id="hardcover" name="class" value="hardcover" checked>
+            <label for="hardcover">Advanced</label>
+            <input type="radio" id="ebook" name="class" value="ebook" checked>
+            <label for="ebook">Premium</label>
           </div>
           <div class="column1-div">
             <h3> Image as a Link </h3>
-            <br>
+            <a href="#place" class="img-link">
+              <img src="https://via.placeholder.com/1000/89C97B/fff" alt="">
+            </a>
           </div>
         </div>
       </section>
