@@ -2,6 +2,7 @@
 :root {
   --primary-color: black;
   --secondary-color: #F5F5F5;
+  --highlight-color: lime;
   --primary-font: "Jost";
   --secondary-font: "Be Vietnam";
 }
@@ -27,7 +28,7 @@ p,
 a {
   font-family: var(--secondary-font);
   font-weight: 400;
-  font-size: 0.9rem;
+  /* font-size: rem; */
 
 }
 
@@ -357,7 +358,7 @@ label {
 }
 
 #example-grid div {
-  background-color: lime;
+  background-color: var(--secondary-color);
   grid-column: span;
   min-height: 1rem;
   min-width: 1rem;
@@ -404,42 +405,7 @@ section section {
 .color-text {
   padding-left: 1rem;
 }
-
-/* TEXT STYLING */
-
-h1,
-h2,
-h3,
-h4,
-h6 {
-  font-family: Jost;
-  font-weight: 600
-}
-
-h1 {
-  font-size: 2rem;
-}
-
-h1 strong {
-  font-weight: 700;
-}
-
-p,
-a {
-  font-family: Quicksand;
-  font-weight: 400;
-  font-size: 0.9rem <<<<<<< Updated upstream
-}
-
-p {
-  text-align: left;
-}
-
-=======
-}
-
-
->>>>>>>Stashed changes #hierarchy div h1 {
+ #hierarchy div h1 {
   font-size: 3rem;
   font-weight: 700
 }
@@ -692,10 +658,11 @@ label {
 }
 
 #example-grid div {
-  background-color: lime;
+  background-color: var(--secondary-color);
   grid-column: span;
-  min-height: 1rem;
+  min-height: 30vh;
   min-width: 1rem;
+  text-align: center;
 }
 
 
@@ -735,9 +702,68 @@ section section {
   background-color: #282828;
 }
 
+h1.first:nth-child(1){
+  text-align: center;
+}
 
-section div h1:nth-child(1){
-  text-align: center
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked+label,
+[type="radio"]:not(:checked)+label {
+    position: relative;
+    padding-left: 1.5rem;
+    cursor: pointer;
+    line-height: 1.3rem;
+    display: block;
+    color: var(--primary-color);
+    margin: 1rem 0.5rem;
+
+}
+
+[type="radio"]:checked+label {
+/* color:var(--secondary-color); */
+}
+
+[type="radio"]:checked+label:before,
+[type="radio"]:not(:checked)+label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--highlight-color);
+  border-radius: 100%;
+  background: #fff;
+}
+
+[type="radio"]:checked+label:after,
+[type="radio"]:not(:checked)+label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: var(--highlight-color);
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+[type="radio"]:not(:checked)+label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+[type="radio"]:checked+label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 
 /*---------------media queries------------------ */
