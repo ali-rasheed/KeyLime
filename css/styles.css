@@ -1,39 +1,45 @@
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
 /* TEXT STYLING */
---primary-color = white;
+:root {
+  --primary-color: black;
+  --secondary-color: #F5F5F5;
+  --highlight-color: lime;
+  --primary-font: "Jost";
+  --secondary-font: "Be Vietnam";
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: Jost;
-  font-weight: 600
+  font-family: var(--primary-font);
 }
-h1
-{
+
+h1 {
   font-size: 2rem;
 }
+
 h1 strong {
   font-weight: 700;
 }
 
 p,
 a {
-  font-family: Quicksand;
+  font-family: var(--secondary-font);
   font-weight: 400;
-  font-size: 0.9rem
+  /* font-size: rem; */
 
 }
+
 p {
   text-align: left;
 }
 
 #hierarchy div h1 {
   font-size: 3rem;
-font-weight: 700}
+  font-weight: 700
+}
 
 #hierarchy div h2 {
   font-size: 2rem;
@@ -54,12 +60,80 @@ font-weight: 700}
 
 #hierarchy div h5 {
   font-size: 1rem;
-font-weight: 500;}
+  font-weight: 500;
+}
 
 #hierarchy div h6 {
   font-size: 1rem;
   font-weight: 300;
 }
+
+h2.body-copy:nth-child(1) {
+  font-family: var(--secondary-font);
+  font-weight: 100;
+}
+
+h2.body-copy:nth-child(2) {
+  font-family: var(--secondary-font);
+  font-weight: 400
+}
+
+h2.body-copy:nth-child(3) {
+  font-family: var(--secondary-font);
+  font-weight: 600
+}
+
+h2.body-copy:nth-child(4) {
+  font-family: var(--secondary-font);
+  font-weight: 800
+}
+
+
+h2.headings:nth-child(1) {
+  font-family: var(--primary-font);
+  font-weight: 100;
+}
+
+h2.headings:nth-child(2) {
+  font-family: var(--primary-font);
+  font-weight: 200
+}
+
+h2.headings:nth-child(3) {
+  font-family: var(--primary-font);
+  font-weight: 300
+}
+
+h2.headings:nth-child(4) {
+  font-family: var(--primary-font);
+  font-weight: 400
+}
+
+h2.headings:nth-child(5) {
+  font-family: var(--primary-font);
+  font-weight: 500
+}
+
+h2.headings:nth-child(6) {
+  font-family: var(--primary-font);
+  font-weight: 600
+}
+
+h2.headings:nth-child(7) {
+  font-family: var(--primary-font);
+  font-weight: 700
+}
+
+h2.headings:nth-child(8) {
+  font-family: var(--primary-font);
+  font-weight: 800
+}
+
+h2.headings:nth-child(9) {
+  font-family: var(--primary-font);
+  font-weight: 900
+}
+
 /* --------------nav------------ */
 .top-bar {
   position: fixed;
@@ -272,6 +346,7 @@ label {
 .btn:hover {
   background-color: #45a049;
 }
+
 /* ~~~ https://www.w3schools.com/howto/howto_css_checkout_form.asp used for checkout form  ~~~ */
 
 #example-grid {
@@ -283,43 +358,42 @@ label {
 }
 
 #example-grid div {
-  background-color: lime;
+  background-color: var(--secondary-color);
   grid-column: span;
   min-height: 1rem;
   min-width: 1rem;
 }
-main section h1 {
-  text-align: center
-}
 
-main section {
-  text-align: center;
-}
 
 section section {
   text-align: left;
 }
+
 .logo-text {
   color: #89C97B;
 }
+
 .color-palette {
   margin: 1rem;
   padding: 2.5rem;
   background-color: #EAEDEF;
   display: flex;
 }
+
 .color1 {
   margin: 2.5rem;
   padding-top: 7rem;
   flex-grow: 1;
   background-color: #89C97B;
 }
+
 .color2 {
   margin: 2.5rem;
   padding-top: 7rem;
   flex-grow: 1;
   background-color: #FFF;
 }
+
 .color3 {
   margin: 2.5rem;
   padding-top: 7rem;
@@ -327,51 +401,14 @@ section section {
   background-color: #282828;
   color: white;
 }
+
 .color-text {
-  padding-left:1rem;
+  padding-left: 1rem;
 }
-
-/*---------------media queries------------------ */
-=======
->>>>>>> Stashed changes
-/* TEXT STYLING */
-
-h1,
-h2,
-h3,
-h4,
-h6 {
-  font-family: Jost;
-  font-weight: 600
-}
-h1
-{
-  font-size: 2rem;
-}
-h1 strong {
-  font-weight: 700;
-}
-
-p,
-a {
-  font-family: Quicksand;
-  font-weight: 400;
-  font-size: 0.9rem
-<<<<<<< Updated upstream
-
-}
-p {
-  text-align: left;
-}
-
-=======
-}
-
-
->>>>>>> Stashed changes
-#hierarchy div h1 {
+ #hierarchy div h1 {
   font-size: 3rem;
-font-weight: 700}
+  font-weight: 700
+}
 
 #hierarchy div h2 {
   font-size: 2rem;
@@ -392,12 +429,14 @@ font-weight: 700}
 
 #hierarchy div h5 {
   font-size: 1rem;
-font-weight: 500;}
+  font-weight: 500;
+}
 
 #hierarchy div h6 {
   font-size: 1rem;
   font-weight: 300;
 }
+
 /* --------------nav------------ */
 .top-bar {
   position: fixed;
@@ -427,10 +466,7 @@ nav {
   padding: 15px;
   text-align: center;
   border: 1px solid lightgrey;
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
+  <<<<<<< Updated upstream=======>>>>>>>Stashed changes
 }
 
 nav a {
@@ -613,59 +649,52 @@ label {
 .btn:hover {
   background-color: #45a049;
 }
-<<<<<<< Updated upstream
-/* ~~~ https://www.w3schools.com/howto/howto_css_checkout_form.asp used for checkout form  ~~~ */
-=======
->>>>>>> Stashed changes
 
 #example-grid {
   column-gap: 1rem;
   row-gap: 1rem;
   width: 100%;
   min-height: 1rem;
-  /* height:  */
 }
 
 #example-grid div {
-  background-color: lime;
+  background-color: var(--secondary-color);
   grid-column: span;
-  min-height: 1rem;
+  min-height: 30vh;
   min-width: 1rem;
+  text-align: center;
 }
 
-main section {
-<<<<<<< Updated upstream
-  text-align: center;
-=======
-  text-align: center
->>>>>>> Stashed changes
-}
 
 section section {
   text-align: left;
 }
-<<<<<<< Updated upstream
+
 .logo-text {
   color: #89C97B;
 }
+
 .color-palette {
   margin: 1rem;
   padding: 2.5rem;
   background-color: #EAEDEF;
   display: flex;
 }
+
 .color1 {
   margin: 2.5rem;
   padding-top: 7rem;
   flex-grow: 1;
   background-color: #89C97B;
 }
+
 .color2 {
   margin: 2.5rem;
   padding-top: 7rem;
   flex-grow: 1;
   background-color: #FFF;
 }
+
 .color3 {
   margin: 2.5rem;
   padding-top: 7rem;
@@ -673,12 +702,69 @@ section section {
   background-color: #282828;
 }
 
+h1.first:nth-child(1){
+  text-align: center;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked+label,
+[type="radio"]:not(:checked)+label {
+    position: relative;
+    padding-left: 1.5rem;
+    cursor: pointer;
+    line-height: 1.3rem;
+    display: block;
+    color: var(--primary-color);
+    margin: 1rem 0.5rem;
+
+}
+
+[type="radio"]:checked+label {
+/* color:var(--secondary-color); */
+}
+
+[type="radio"]:checked+label:before,
+[type="radio"]:not(:checked)+label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--highlight-color);
+  border-radius: 100%;
+  background: #fff;
+}
+
+[type="radio"]:checked+label:after,
+[type="radio"]:not(:checked)+label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: var(--highlight-color);
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+[type="radio"]:not(:checked)+label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+[type="radio"]:checked+label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
 
 /*---------------media queries------------------ */
-=======
-
-/* ~~~ https://www.w3schools.com/howto/howto_css_checkout_form.asp used for checkout form  ~~~ */
-
-/*---------------media queries------------------ */
->>>>>>> parent of adfef54... Merge pull request #1 from ali-rasheed/styleguide_grid-structuring
->>>>>>> Stashed changes
+/* https://www.w3schools.com/howto/howto_css_checkout_form.asp used for checkout form */
