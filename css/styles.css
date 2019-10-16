@@ -1,12 +1,24 @@
+
+/* font import */
+@font-face {
+  font-family: "League Spartan";
+  src: url("css/fonts/LeagueSpartan.eot");
+  src:
+  url("css/fonts/Harabara.woff") format("woff"),
+  url("css\fonts\LeagueSpartan-Black.otf") format("opentype"),
+  url("css/fonts/Harabara.svg#filename") format("svg");
+  }
 /* TEXT STYLING */
 :root {
   --primary-color: black;
   --secondary-color: #F5F5F5;
   --primary-highlight-color: #89C97B;
   --secondary-highlight-color: #43b929;
-  --primary-font: "Jost";
+  --primary-font: "League Spartan";
   --secondary-font: "Be Vietnam";
 }
+
+
 
 h1,
 h2,
