@@ -212,6 +212,7 @@ nav a.active {
 /* BODY */
 main {
   padding: 10vh 10vw;
+  padding-top: 8rem;
   /* padding-left: 15vw;
   padding-right: 15vw;
   padding-top: 10.5rem; */
@@ -396,6 +397,25 @@ section section {
   padding-left: 1rem;
 }
 
+.main-page-div {
+
+    display: flex;
+    flex-direction: row;
+}
+#profile-section {
+  padding: 3rem;
+  width: 20vw;
+  background-color: #FFFFFF;
+  border: 0.5px solid lightgrey;
+  border-radius: 3px;
+}
+#content-section {
+  padding: 3rem;
+  width: 45vw;
+  background-color: #FFFFFF;
+  border: 0.5px solid lightgrey;
+  border-radius: 3px;
+}
 
 /* --------------nav------------ */
 .top-bar {
@@ -405,7 +425,7 @@ section section {
   background-color: #FFFFFF;
   width: 100%;
 }
-
+/* styleguide navigation */
 #logo-bar {
   top: 0px;
   left: 0px;
@@ -416,6 +436,52 @@ section section {
   text-align: center;
   font-size: 3rem;
   font-weight: 700
+}
+/* main page navigation */
+#nav-bar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #FFFFFF;
+  width: 100%;
+  padding-left:9.5rem;
+  padding-right:9.5rem;
+  overflow: hidden;
+  border: 0.5px solid lightgrey;
+}
+#nav-bar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+#logo-container {
+  width: 15vw;
+  float:left;
+  overflow: hidden;
+}
+#search-nav-container {
+  padding:1.25rem;
+}
+#search-container {
+  float: left;
+  overflow: hidden;
+  padding-left: 8vw;
+}
+#nav-bar input[type=text] {
+
+  width: 25vw;
+  padding: 6px;
+  padding-left: 12px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+#nav-container {
+  float:right;
 }
 
 nav {
