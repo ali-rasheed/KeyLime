@@ -398,12 +398,9 @@ section section {
 }
 
 .main-page-div {
-    display: flex;
 }
 #profile-section {
-  flex-grow: 1;
   float:left;
-  padding: 3rem;
   width: 26vw;
   background-color: #FFFFFF;
   border: 0.5px solid lightgrey;
@@ -411,14 +408,17 @@ section section {
 
 }
 #content-section {
-  flex-grow: 1;
   float:right;
-  padding: 3rem;
+  margin-bottom: 3rem;
   width: 50vw;
   background-color: #FFFFFF;
   border: 0.5px solid lightgrey;
   border-radius: 3px;
 }
+.text-container {
+  padding-left: 1.5rem;
+}
+
 
 /* --------------nav------------ */
 .top-bar {
