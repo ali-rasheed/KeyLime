@@ -407,6 +407,9 @@ section section {
   border-radius: 3px;
 
 }
+hr {
+  border-top: 0.5px solid lightgrey;
+}
 #content-section {
   float:right;
   margin-bottom: 3rem;
