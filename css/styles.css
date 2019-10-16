@@ -35,8 +35,16 @@ p {
   text-align: left;
 }
 
+#hierarchy h1:nth-child(1), #typeface h1:nth-child(1){
+  font-style: italic}
+
+#hierarchy div * {
+  margin: 0 0 0.7em 0;
+  font-style: normal !important;
+}
+
 #hierarchy div h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700
 }
 
@@ -65,6 +73,17 @@ p {
 #hierarchy div h6 {
   font-size: 1rem;
   font-weight: 400;
+}
+
+div.body-copy{
+  margin: 2rem 0 0 0;
+}
+div.headings * {
+  margin: 0.3em 0 0.3em 0;
+
+}div.body-copy * {
+  margin: 0.3em 0 0.3em 0;
+
 }
 
 h2.body-copy:nth-child(1) {
@@ -408,6 +427,7 @@ nav {
   text-align: center;
   border: 1px solid lightgrey;
 }
+
 .container {
   background-color: #ffffff;
   padding: 5px 20px 15px 20px;
@@ -580,12 +600,18 @@ img {
   max-width: 100%;
 }
 
+a.img-link {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* text-align: center; */
+}
+
 a.img-link>img {
   border: solid 2px transparent;
   /* filter:blur(5px); */
   filter: brightness(50%);
   transition: filter 0.1s ease-in;
-  text-align: center;
 }
 
 a.img-link>img:hover,
