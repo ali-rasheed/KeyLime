@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'League Spartan';
+       src: url('fonts/LeagueSpartan-Black.eot');
+       src: url('fonts/LeagueSpartan-Black.eot?#iefix') format('embedded-opentype'),
+            url('fonts/LeagueSpartan-Black.woff') format('woff'),
+            url('fonts/LeagueSpartan-Black.ttf') format('truetype'),
+            url('fonts/LeagueSpartan-Black.svg#UbuntuItalic') format('svg');
+    font-weight: 900;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'League Spartan';
+       src: url('fonts/LeagueSpartan-Light.eot');
+       src: url('fonts/LeagueSpartan-Light.eot?#iefix') format('embedded-opentype'),
+            url('fonts/LeagueSpartan-Light.woff') format('woff'),
+            url('fonts/LeagueSpartan-Light.ttf') format('truetype'),
+            url('fonts/LeagueSpartan-Light.svg#UbuntuItalic') format('svg');
+    font-weight: 300;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'League Spartan';
+       src: url('fonts/LeagueSpartan-Semibold.eot');
+       src: url('fonts/LeagueSpartan-Semibold.eot?#iefix') format('embedded-opentype'),
+            url('fonts/LeagueSpartan-Semibold.woff') format('woff'),
+            url('fonts/LeagueSpartan-Semibold.ttf') format('truetype'),
+            url('fonts/LeagueSpartan-Semibold.svg#UbuntuItalic') format('svg');
+    font-weight: 600;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'League Spartan';
+       src: url('fonts/LeagueSpartan-Extralight.eot');
+       src: url('fonts/LeagueSpartan-Extralight.eot?#iefix') format('embedded-opentype'),
+            url('fonts/LeagueSpartan-Extralight.woff') format('woff'),
+            url('fonts/LeagueSpartan-Extralight.ttf') format('truetype'),
+            url('fonts/LeagueSpartan-Extralight.svg#UbuntuItalic') format('svg');
+    font-weight: 200;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'League Spartan';
+       src: url('fonts/LeagueSpartan-Regular.eot');
+       src: url('fonts/LeagueSpartan-Regular.eot?#iefix') format('embedded-opentype'),
+            url('fonts/LeagueSpartan-Regular.woff') format('woff'),
+            url('fonts/LeagueSpartan-Regular.ttf') format('truetype'),
+            url('fonts/LeagueSpartan-Regular.svg#UbuntuItalic') format('svg');
+    font-weight: 400;
+    font-style: normal;
+ }
+ 

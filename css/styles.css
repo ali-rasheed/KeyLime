@@ -1,5 +1,8 @@
 
 /* font import */
+@import "fonts.css";
+
+
 @font-face {
   font-family: "League Spartan";
   src: url("css/fonts/LeagueSpartan.eot");
@@ -8,7 +11,11 @@
   url("css\fonts\LeagueSpartan-Black.otf") format("opentype"),
   url("css/fonts/Harabara.svg#filename") format("svg");
   }
-/* TEXT STYLING */
+
+
+
+
+  /* TEXT STYLING */
 :root {
   --primary-color: black;
   --secondary-color: #F5F5F5;
@@ -185,7 +192,7 @@ h2.headings:nth-child(9) {
   font-weight: 700
 }
 
-nav {
+nav.guide {
   background-color: #FFFFFF;
   overflow: hidden;
   top: 100px;
@@ -196,27 +203,27 @@ nav {
 
 }
 
-nav a {
+nav.guide a {
   text-decoration: none;
   color: black;
   padding: 2rem;
 }
 
-nav a:hover,
-nav a:focus {
+nav.guide a:hover,
+nav.guide a:focus {
   text-decoration: none;
 }
 
-nav a:hover {
+nav.guide a:hover {
   background-color: #ddd;
   color: black;
 }
 
-nav a:focus {
+nav.guide a:focus {
   background-color: #89C97B;
 }
 
-nav a.active {
+nav.guide a.active {
   background-color: #4CAF50;
   color: white;
 }
@@ -502,7 +509,7 @@ hr {
   float:right;
 }
 
-nav {
+nav.guide {
   background-color: #FFFFFF;
   overflow: hidden;
   top: 100px;
