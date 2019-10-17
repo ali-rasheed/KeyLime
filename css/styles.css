@@ -97,8 +97,9 @@ p{
 
 }
 nav{
-  z-index: 2;
+  z-index: 3;
 }
+
 /* BODY */
 main {
   padding: 10vh 15vw 0vw 5vw;
@@ -120,7 +121,13 @@ aside{
 #subscription {
   /* padding-left: 10rem; */
 }
+.post-cont h3, .post-cont p{
+  padding-left: 1.5rem;
+}
 
+.post-cont figure{
+  margin: 0.1rem ;
+}
 .grid-div {
   padding: 3rem;
   background-color: #FFFFFF;
