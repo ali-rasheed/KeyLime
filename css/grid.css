@@ -120,9 +120,10 @@ aside div {
 .text-container .button-link {
     margin: 0.4rem 2rem 0.4rem auto;
 }
-        .accounts div figure{
-            margin:0;
-        }
+
+.accounts div figure {
+    margin: 0;
+}
 
         
         #login-cont{display:flex;}
@@ -184,9 +185,11 @@ aside div {
         grid-column: 1/13;
 
     }
-aside.accounts div{
-grid-column: span 6
-}
+
+    aside.accounts div {
+        grid-column: span 6
+    }
+
     #settings-cont {
         grid-column: 1/13;
         padding: 1.8rem;
@@ -211,6 +214,9 @@ grid-column: span 6
     main {
         padding-top: 10rem;
     }
+            aside {
+                display: none;
+            }
 }
 
 @media screen and (max-width: 650px) {
@@ -227,9 +233,6 @@ grid-column: span 6
         max-width: 80vw;
     }
 
-    aside {
-        display: none;
-    }
 
     #search-cont input {
         max-width: 80vw;
