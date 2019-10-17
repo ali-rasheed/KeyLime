@@ -1,103 +1,151 @@
 <!doctype html>
 <html lang="en">
 
- <head>
-   <title>KeyLime - Account</title>
-   <!-- meta tags -->
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <meta name="description" content="KeyLime">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="author" content="Aliasger Rasheed, Cameron Dawson">
-   <!-- ADOBE FONTS  -->
-   <link rel="stylesheet" href="https://use.typekit.net/kmv0kfi.css">
-   <!-- GOOGLE FONTS -->
-   <!-- Quicksand -->
-   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
-   <!-- Jost -->
-   <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
-   <!-- Be Vietnam -->
-   <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:100,100i,400,400i,600,600i,800,800i&display=swap"
-     rel="stylesheet">
+<head>
+  <title>KeyLime - Account</title>
+  <!-- meta tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="KeyLime">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Aliasger Rasheed, Cameron Dawson">
+  <!-- ADOBE FONTS  -->
+  <link rel="stylesheet" href="https://use.typekit.net/kmv0kfi.css">
+  <!-- GOOGLE FONTS -->
+  <!-- Quicksand -->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
+  <!-- Jost -->
+  <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+  <!-- Be Vietnam -->
+  <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:100,100i,400,400i,600,600i,800,800i&display=swap"
+    rel="stylesheet">
 
 
-   <!-- css files -->
-   <link rel="stylesheet" href="css/styles.css">
-   <link rel="stylesheet" href="css/grid.css">
- </head>
- <body>
+  <!-- css files -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/grid.css">
+</head>
 
-   <header>
-     <section id="top-bar">
-       <div id="nav-bar">
-         <div id="logo-container">
-           <h1 class="logo-text"> KeyLime </h1>
-         </div>
-         <div id="search-nav-container">
-           <div id="search-container">
-             <input type="text" placeholder="Search..">
-           </div>
-           <div id="nav-container">
-             <a href="index.html">Home</a>
-             <a class="active" href="account.html">Account</a>
-             <a href="subscription.html">Subscription</a>
-           </div>
-          </div>
-       </div>
-     </section>
-   </header>
+<body>
 
-   <main>
-     <div class="main-page-div"
-     <div id="profile-section">
-       <div class="text-container">
-         <h3> Allie Webber </h3>
-       </div>
-       <div class="profile-picture-container">
-         <img src="images/profile-picture1.jpg" alt="Profile Picture" >
-       </div>
-       <div class="text-container">
-         <h3> About </h3>
-         <p> Studies criminology at UBC</p>
-         <p> Lives in Vancouver, British Columbia</p>
-         <p> Born in Boise, Idaho</p>
-       </div>
-     </div>
+ <header>
+  <nav id="nav-bar" class="top-bar row">
+    <div id="logo-cont" class="centerer row">
 
-       <div id="content-section">
-         <div class="text-container">
-           <h3> Username </h3>
-           <p> allie.webber92 </p>
-         </div>
-         <hr>
-         <div class="text-container">
-           <h3> Followers </h3>
-            <p> 213 Followers </p>
-         </div>
-         <hr>
-         <div class="text-container">
-           <h3> Following </h3>
-            <p> 187 Following </p>
-         </div>
-         <hr>
-         <div class="text-container">
-           <h3> Posts </h3>
-            <p> 11 Posts </p>
-         </div>
-         <hr>
-         <div class="text-container">
-           <h3> Images </h3>
-            <p> 28 Images </p>
-         </div>
-         <hr>
-         <div class="text-container">
-           <h3> Videos </h3>
-            <p> 5 Videos </p>
-         </div>
-       </div>
-     </div>
-   </main>
+      <a href="index.html">
+        <h1 class="logo-text"> KeyLime </h1>
+      </a>
+    </div>
+    <div id="search-cont" class="centerer">
+      <input type="text" class="centerer" placeholder="Search..">
+    </div>
+    <div id="nav-cont" class="row">
+      <!-- <a class="active" href="index.html">Home</a> -->
+      <a href="account.html">Account</a>
+      <a href="subscription.html">Subscription</a>
+    </div>
+  </nav>
+  </header>
 
- </body>
+  <main class="grid x24">
+    <aside id="profile-section">
+      <h2> Allie Webber </h2>
+      <figure>
+        <img src="images/profile-picture1.jpg" alt="Profile Picture">
+      </figure>
+
+      <h3> About </h3>
+
+      <p> Studies criminology at UBC</p>
+      <p> Lives in Vancouver, British Columbia</p>
+      <p> Born in Boise, Idaho</p>
+
+    </aside>
+
+
+    <article id="settings-cont" class="grid x24 xR2">
+      <section class="stats-cont">
+        <div>
+
+          <h3> Username </h3>
+          <p> allie.webber92 </p>
+        </div>
+      </section>
+      <!--  -->
+      <section class="stats-cont">
+        <div>
+
+          <h3> Followers </h3>
+          <p> 213 Followers </p>
+        </div>
+      </section>
+      <!--  -->
+      <section class="stats-cont">
+        <h3> Following </h3>
+        <p> 187 Following </p>
+      </section>
+      <!--  -->
+      <section class="stats-cont">
+        <h3> Posts </h3>
+        <p> 11 Posts </p>
+      </section>
+      <!--  -->
+      <section class="stats-cont">
+        <h3> Images </h3>
+        <p> 28 Images </p>
+      </section>
+      <!--  -->
+      <section class="stats-cont">
+        <h3> Videos </h3>
+        <p> 5 Videos </p>
+      </section>
+
+    </article>
+
+    <article id="sub-cont">
+
+      <section class="sub-options">
+
+        <div class="text-container">
+          <h2> Subscribe to KeyLime. </h2>
+          <h4> Recieve full access to KeyLime and never worry about your privacy again.</h4>
+        </div>
+        
+        <div class="text-container row">
+          <h3 class="centerer"> 5.99 CAD + tax/month</h3>
+          <a href="" class="button-link centerer">Join us</a>
+
+        </div>
+      </section>
+
+      <section class="sub-options">
+        <div class="text-container">
+          <h2> Single time payment. </h2>
+          <h4> Pay a one time fee and renew your account as you see fit.</h4>
+        </div>
+        
+        <div class="text-container row">
+          <h3 class="centerer"> 5.99 CAD + tax for 1 month</h3>
+          <a href="" class="button-link centerer">Join us</a>
+        </div>
+        
+        <div class="text-container row">
+          <h3 class="centerer"> 15.99 CAD + tax for 3 month</h3>
+          <a href="" class="button-link centerer">Join us</a>
+        </div>
+        
+        <div class="text-container row">
+          <h3 class="centerer"> 29.99 CAD + tax for 6 month</h3>
+          <a href="" class="button-link centerer">Join us</a>
+        </div>
+        
+        <div class="text-container row">
+          <h3 class="centerer"> 55.99 CAD + tax for 1 year</h3>
+          <a href="" class="button-link centerer">Join us</a>
+        </div>
+    </article>
+  </main>
+
+</body>
 
 </html>
