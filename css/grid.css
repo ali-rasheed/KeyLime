@@ -124,6 +124,10 @@ aside div {
             margin:0;
         }
 
+        
+        #login-cont{display:flex;}
+
+
 /* -------------media queries-------------- */
 @media screen and (max-width:1300px) {
     aside {
