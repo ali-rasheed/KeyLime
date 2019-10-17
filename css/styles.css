@@ -32,7 +32,8 @@ a {
   font-family: var(--secondary-font);
   font-weight: 400;
 }
-p{
+
+p {
   font-size: 0.7em;
 }
 
@@ -96,7 +97,13 @@ p{
   padding: 1rem;
 
 }
-nav{
+#nav-cont a{
+  transition: color 0.3s;
+}
+#nav-cont a:hover:focus{
+color: green;
+}
+nav {
   z-index: 3;
 }
 
@@ -112,42 +119,59 @@ main {
 body {
   background-color: #F5F5F5;
 }
-aside{
+
+aside {
   padding: 1rem 2rem 1rem 2rem;
 }
-#feed{
 
-}
+#feed {}
+
 #subscription {
   /* padding-left: 10rem; */
 }
-.post-cont h3, .post-cont p{
+
+.post-cont h3,
+.post-cont p {
   padding-left: 1.5rem;
 }
 
-.post-cont figure{
-  margin: 0.1rem ;
+.post-cont figure {
+  margin: 0.1rem;
 }
-#settings-cont, #sub-cont{
+#settings-cont{
+  padding: 2rem;
+}
+#settings-cont,
+.sub-options {
   background-color: #FFFFFF;
   border: 0.5px solid lightgrey;
   border-radius: 3px;
-padding: 2rem;
-}
-#settings-cont h3, p{
-padding-left: 2rem;
-}
-.stats-cont{
-  height: 4rem;
-}
-.sub-options{
-  border: 0.5px solid lightgrey;
-}
-.stats-cont h3{
-/* padding-bottom: 1rem; */
-margin:0;
 
 }
+
+#settings-cont h3,
+p {
+  /* padding-left: 2rem; */
+}
+
+.stats-cont {
+  height: 4rem;
+}
+
+.sub-options {
+  padding: 2rem;
+  border: 0.5px solid lightgrey;
+  margin-bottom: 2vh;
+}
+
+.stats-cont h3 {
+  /* padding-bottom: 1rem; */
+  margin: 0;
+}
+.text-container{
+  min-height: 5rem;
+}
+
 .grid-div {
   padding: 3rem;
   background-color: #FFFFFF;
@@ -214,7 +238,8 @@ hr {
   border-top: 0.5px solid lightgrey;
 }
 
-.post-cont, .new-post-cont {
+.post-cont,
+.new-post-cont {
   /* float: right; */
   margin-bottom: 3rem;
   /* width: 50vw; */
@@ -223,11 +248,12 @@ hr {
   border-radius: 3px;
 
 }
-.new-post-cont{
+
+.new-post-cont {
   padding: 0 2rem 0 2rem;
   position: sticky;
   height: 8rem;
-/* max-height: min-content; */
+  /* max-height: min-content; */
 }
 
 
@@ -321,15 +347,16 @@ input[type="text"]:hover {
 
 .button-link,
 button {
-  font-weight: 800;
+  font-weight: 400;
+  font-size: 1.3rem;
   display: inline-block;
-  padding: 0.5rem;
+  padding: 0.3rem 2rem;
   color: var(--primary-highlight-color);
   background-color: rgb(50, 50, 50, 0);
   text-decoration: none;
   transition-property: all;
   transition-duration: 0.5s;
-  border: 2px solid var(--primary-highlight-color);
+  border: 2.5px solid var(--primary-highlight-color);
 }
 
 .button-link:hover,

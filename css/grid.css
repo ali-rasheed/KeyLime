@@ -19,7 +19,9 @@
 .xR2 {
     grid-template-rows: repeat(2, auto);
 }
-
+.xR20{
+    grid-template-rows: repeat(20,auto);
+}
 .x2 {
     grid-template-columns: auto auto;
 }
@@ -51,9 +53,10 @@ aside{
 }
 .new-post-cont{
     grid-column: 4/13;
-
+    
 }
 #feed{
+    grid-row: 1/5;
     grid-column: 4/13;
 }
 .right-aligner {
@@ -99,7 +102,8 @@ grid-column: span 3;
     justify-content: center;
     align-items: center;
 }
-
+.text-container .button-link{margin: 0.4rem 2rem 0.4rem auto;
+}
 /* -------------media queries-------------- */
 @media screen and (max-width:1300px){
     aside{
