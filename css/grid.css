@@ -19,9 +19,11 @@
 .xR2 {
     grid-template-rows: repeat(2, auto);
 }
-.xR20{
-    grid-template-rows: repeat(20,auto);
+
+.xR20 {
+    grid-template-rows: repeat(20, auto);
 }
+
 .x2 {
     grid-template-columns: auto auto;
 }
@@ -48,17 +50,24 @@
     /* flex-basis: ; */
 }
 
-aside{
+aside {
     grid-column: 1/4;
 }
-.new-post-cont{
-    grid-column: 4/13;
-    
+
+aside div {
+    grid-column: span all;
 }
-#feed{
+
+.new-post-cont {
+    grid-column: 4/13;
+
+}
+
+#feed {
     grid-row: 1/5;
     grid-column: 4/13;
 }
+
 .right-aligner {
     justify-content: end;
 
@@ -87,41 +96,62 @@ aside{
 #logo-cont {
     flex-basis: 25%;
 }
-#settings-cont{
+
+#settings-cont {
     grid-column: 4/13;
     grid-row: 1/2;
 }
-#sub-cont{
-    grid-column: 1/13;;
+
+#sub-cont {
+    grid-column: 1/13;
+    ;
 }
-.stats-cont{
-grid-column: span 3;
+
+.stats-cont {
+    grid-column: span 3;
 }
+
 .centerer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.text-container .button-link{margin: 0.4rem 2rem 0.4rem auto;
+
+.text-container .button-link {
+    margin: 0.4rem 2rem 0.4rem auto;
 }
+        .accounts div figure{
+            margin:0;
+        }
+
 /* -------------media queries-------------- */
-@media screen and (max-width:1300px){
-    aside{
+@media screen and (max-width:1300px) {
+    aside {
         grid-column: 1/5;
     }
-    .new-post-cont, #feed{
+
+    .new-post-cont,
+    #feed {
         grid-column: 5/13;
     }
-    main{
+
+    main {
         padding: 10vh 7vw 0vh 5vw;
     }
+
+    #settings-cont {
+        grid-column: 5/13;
+    }
+
 }
-@media screen and (max-width:1200px){
-    main{
+
+@media screen and (max-width:1200px) {
+    main {
         padding: 10vh 7vw 0vh 5vw;
     }
 
 }
+
 @media screen and (max-width: 1080px) {
 
     /* 
@@ -141,10 +171,25 @@ grid-column: span 3;
     #nav-cont a {
         justify-content: center;
     }
-    aside{
+
+    aside {
         grid-column: 1/6;
     }
-    .new-post-cont, #feed{
+
+    aside.accounts {
+        grid-column: 1/13;
+
+    }
+aside.accounts div{
+grid-column: span 6
+}
+    #settings-cont {
+        grid-column: 1/13;
+        padding: 1.8rem;
+    }
+
+    .new-post-cont,
+    #feed {
         grid-column: 6/13;
     }
 }
@@ -158,9 +203,10 @@ grid-column: span 3;
         justify-content: center;
         flex-basis: 50%;
     }
-main{
-    padding-top: 10rem;
-}
+
+    main {
+        padding-top: 10rem;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -184,7 +230,9 @@ main{
     #search-cont input {
         max-width: 80vw;
     }
-    .new-post-cont, #feed{
+
+    .new-post-cont,
+    #feed {
         grid-column: 1/13;
     }
 }
