@@ -1,0 +1,627 @@
+/* TEXT STYLING */
+:root {
+    --primary-color: black;
+    --secondary-color: #F5F5F5;
+    --primary-highlight-color: #89C97B;
+    --secondary-highlight-color: #43b929;
+    --primary-font: "Jost";
+    --secondary-font: "Be Vietnam";
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--primary-font);
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h1 strong {
+    font-weight: 700;
+  }
+  
+  p,
+  a {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+  }
+  
+  p {
+    text-align: left;
+  }
+  
+  #hierarchy h1:nth-child(1), #typeface h1:nth-child(1){
+    font-style: italic}
+  
+  #hierarchy div * {
+    margin: 0 0 0.7em 0;
+    font-style: normal !important;
+  }
+  
+  #hierarchy div h1 {
+    font-size: 2.5rem;
+    font-weight: 700
+  }
+  
+  #hierarchy div h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  
+  #hierarchy div h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    /* font-style: italic; */
+  }
+  
+  #hierarchy div h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
+  #hierarchy div h5 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  #hierarchy div h6 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  div.body-copy{
+    margin: 2rem 0 0 0;
+  }
+  div.headings * {
+    margin: 0.3em 0 0.3em 0;
+  
+  }div.body-copy * {
+    margin: 0.3em 0 0.3em 0;
+  
+  }
+  
+  h2.body-copy:nth-child(1) {
+    font-family: var(--secondary-font);
+    font-weight: 100;
+  }
+  
+  h2.body-copy:nth-child(2) {
+    font-family: var(--secondary-font);
+    font-weight: 400
+  }
+  
+  h2.body-copy:nth-child(3) {
+    font-family: var(--secondary-font);
+    font-weight: 600
+  }
+  
+  h2.body-copy:nth-child(4) {
+    font-family: var(--secondary-font);
+    font-weight: 800
+  }
+  
+  
+  h2.headings:nth-child(1) {
+    font-family: var(--primary-font);
+    font-weight: 100;
+  }
+  
+  h2.headings:nth-child(2) {
+    font-family: var(--primary-font);
+    font-weight: 200
+  }
+  
+  h2.headings:nth-child(3) {
+    font-family: var(--primary-font);
+    font-weight: 300
+  }
+  
+  h2.headings:nth-child(4) {
+    font-family: var(--primary-font);
+    font-weight: 400
+  }
+  
+  h2.headings:nth-child(5) {
+    font-family: var(--primary-font);
+    font-weight: 500
+  }
+  
+  h2.headings:nth-child(6) {
+    font-family: var(--primary-font);
+    font-weight: 600
+  }
+  
+  h2.headings:nth-child(7) {
+    font-family: var(--primary-font);
+    font-weight: 700
+  }
+  
+  h2.headings:nth-child(8) {
+    font-family: var(--primary-font);
+    font-weight: 800
+  }
+  
+  h2.headings:nth-child(9) {
+    font-family: var(--primary-font);
+    font-weight: 900
+  }
+  
+  /* --------------nav------------ */
+  .top-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #FFFFFF;
+    width: 100%;
+  }
+  
+  #logo-bar {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  }
+  
+  #logo-bar h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700
+  }
+  
+  nav {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    top: 100px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid lightgrey;
+  
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    padding: 2rem;
+  }
+  
+  nav a:hover,
+  nav a:focus {
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  nav a:focus {
+    background-color: #89C97B;
+  }
+  
+  nav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* BODY */
+  main {
+    padding: 10vh 10vw;
+    /* padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 10.5rem; */
+  }
+  
+  body {
+    background-color: #F5F5F5;
+  }
+  
+  .brand-div {
+    padding: 3rem;
+    background-color: #FFFFFF;
+    margin-bottom: 4rem;
+  }
+  
+  .logo-div {
+    padding: 3rem;
+    background-color: #FFFFFF;
+    margin-bottom: 4rem;
+  }
+  
+  .color-palette-div {
+    padding: 3rem;
+    background-color: #FFFFFF;
+    margin-bottom: 4rem;
+  }
+  
+  .typeface-div {
+    padding: 3rem;
+    padding-bottom: 10vh;
+    background-color: #FFFFFF;
+    margin-bottom: 4rem;
+  }
+  
+  .column1-div {
+    /* float: left; */
+    /* width: 32.5vw; */
+  }
+  
+  .column2-div {
+    /* float:left */
+  }
+  
+  .interactive-elements-div {
+    padding: 3rem;
+    padding-bottom: 5vh;
+    background-color: #FFFFFF;
+    margin-bottom: 4rem;
+  }
+  
+  .text-elements-div {
+    padding: 3rem;
+    background-color: #FFFFFF;
+    margin-bottom: 4rem;
+  }
+  
+  .combined-elements-div {
+    padding: 3rem;
+    background-color: #FFFFFF;
+    margin-bottom: 4rem;
+  }
+  
+  #subscription {
+    /* padding-left: 10rem; */
+  }
+  
+  .grid-div {
+    padding: 3rem;
+    background-color: #FFFFFF;
+    margin-bottom: 4rem;
+  }
+  
+  .payment-form-container {
+    height: 150px;
+    background-color: #9100fb;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+  }
+  
+  .payment-form-container p {
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+  }
+  
+  /* ~~~ https://www.w3schools.com/howto/howto_css_checkout_form.asp used for checkout form  ~~~ */
+  
+  .col-25 {
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%;
+    /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%;
+    /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* ~~~ https://www.w3schools.com/howto/howto_css_checkout_form.asp used for checkout form  ~~~ */
+  
+  
+  
+  section section {
+    text-align: left;
+  }
+  
+  .logo-text {
+    color: #89C97B;
+  }
+  
+  .color-palette {
+    margin: 1rem;
+    padding: 2.5rem;
+    background-color: #EAEDEF;
+    display: flex;
+  }
+  
+  .color1 {
+    margin: 2.5rem;
+    padding-top: 7rem;
+    flex-grow: 1;
+    background-color: #89C97B;
+  }
+  
+  .color2 {
+    margin: 2.5rem;
+    padding-top: 7rem;
+    flex-grow: 1;
+    background-color: #FFF;
+  }
+  
+  .color3 {
+    margin: 2.5rem;
+    padding-top: 7rem;
+    flex-grow: 1;
+    background-color: #282828;
+    color: white;
+  }
+  
+  .color-text {
+    padding-left: 1rem;
+  }
+  
+  
+  /* --------------nav------------ */
+  .top-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #FFFFFF;
+    width: 100%;
+  }
+  
+  #logo-bar {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  }
+  
+  #logo-bar h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700
+  }
+  
+  nav {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    top: 100px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid lightgrey;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.09), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+  }
+  
+  input[type=text] {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+  }
+  
+  
+  h1.first:nth-child(1) {
+    text-align: center;
+  }
+  
+  [type="radio"]:checked,
+  [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+  }
+  
+  [type="radio"]:checked+label,
+  [type="radio"]:not(:checked)+label {
+    position: relative;
+    padding-left: 1.5rem;
+    cursor: pointer;
+    line-height: 1.3rem;
+    display: block;
+    color: var(--primary-color);
+    margin: 1rem 0.5rem;
+  
+  }
+  
+  [type="radio"]:checked+label {
+    /* color:var(--secondary-color); */
+  }
+  
+  [type="radio"]:checked+label:before,
+  [type="radio"]:not(:checked)+label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid var(--primary-highlight-color);
+    border-radius: 100%;
+    background: #fff;
+  }
+  
+  [type="radio"]:checked+label:after,
+  [type="radio"]:not(:checked)+label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: var(--primary-highlight-color);
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  
+  [type="radio"]:not(:checked)+label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  
+  [type="radio"]:checked+label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  input[type="text"] {
+    border: solid var(--secondary-color);
+    border-radius: 3px;
+    transition: border 0.15s ease-out
+  }
+  
+  input[type="text"]:focus,
+  input[type="text"]:hover {
+    border: solid var(--primary-highlight-color);
+    border-radius: 3px;
+  }
+  
+  .button-link,
+  button {
+    font-weight: 800;
+    display: inline-block;
+    padding: 0.5rem;
+    color: var(--primary-highlight-color);
+    background-color: rgb(50, 50, 50, 0);
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.5s;
+    border: 2px solid var(--primary-highlight-color);
+  }
+  
+  .button-link:hover,
+  .button-link:focus {
+    background-color: var(--primary-highlight-color);
+    color: var(--secondary-color);
+  }
+  
+  button {
+    flex-grow: 1;
+    color: var(--primary-highlight-color);
+    border: solid 2px var(--primary-highlight-color);
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0.2rem;
+  }
+  
+  button:hover,
+  button:focus {
+    color: white;
+    background-color: var(--primary-highlight-color);
+  }
+  
+  .button-container {
+    display: flex;
+  }
+  
+  .text-link p {
+    padding: 1rem;
+  }
+  
+  p a {
+    color: var(--primary-highlight-color);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.5s;
+  }
+  
+  p a:hover,
+  p a:focus {
+    color: var(--primary-color);
+    background-color: var(--primary-highlight-color);
+  }
+  
+  .bright-on-dark {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  
+  p.bright-on-dark a {
+    color: var(--primary-highlight-color);
+    background-color: var(--primary-color);
+  }
+  
+  p.bright-on-dark a:focus,
+  p.bright-on-dark a:hover {
+    text-decoration: underline;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  a.img-link {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+  }
+  
+  a.img-link>img {
+    border: solid 2px transparent;
+    /* filter:blur(5px); */
+    filter: brightness(50%);
+    transition: filter 0.1s ease-in;
+  }
+  
+  a.img-link>img:hover,
+  .imga.img-link>img:focus {
+    /* border-color: var(--primary-highlight-color); */
+    filter: brightness(100%);
+  
+  
+  }
+  
+  /*---------------media queries------------------ */
+  /* https://www.w3schools.com/howto/howto_css_checkout_form.asp used for checkout form */
+  
