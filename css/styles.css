@@ -128,6 +128,26 @@ aside{
 .post-cont figure{
   margin: 0.1rem ;
 }
+#settings-cont, #sub-cont{
+  background-color: #FFFFFF;
+  border: 0.5px solid lightgrey;
+  border-radius: 3px;
+padding: 2rem;
+}
+#settings-cont h3, p{
+padding-left: 2rem;
+}
+.stats-cont{
+  height: 4rem;
+}
+.sub-options{
+  border: 0.5px solid lightgrey;
+}
+.stats-cont h3{
+/* padding-bottom: 1rem; */
+margin:0;
+
+}
 .grid-div {
   padding: 3rem;
   background-color: #FFFFFF;
