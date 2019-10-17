@@ -32,6 +32,9 @@ a {
   font-family: var(--secondary-font);
   font-weight: 400;
 }
+p{
+  font-size: 0.7em;
+}
 
 
 /* --------------nav------------ */
@@ -80,23 +83,25 @@ a {
 
 }
 
-/* #search-nav-container {
+/* #search-nav-cont {
   padding: 1.25rem;
 } */
 
-#search-container {
+#search-cont {
 
   padding-left: 8vw;
 }
 
-#nav-container a {
+#nav-cont a {
   padding: 1rem;
 
 }
-
+nav{
+  z-index: 2;
+}
 /* BODY */
 main {
-  padding: 10vh 10vw;
+  padding: 10vh 15vw 0vw 5vw;
   padding-top: 8rem;
   /* padding-left: 15vw;
   padding-right: 15vw;
@@ -106,7 +111,12 @@ main {
 body {
   background-color: #F5F5F5;
 }
+aside{
+  padding: 1rem 2rem 1rem 2rem;
+}
+#feed{
 
+}
 #subscription {
   /* padding-left: 10rem; */
 }
@@ -117,14 +127,14 @@ body {
   margin-bottom: 4rem;
 }
 
-.payment-form-container {
+.payment-form-cont {
   height: 150px;
   background-color: #9100fb;
   border-bottom-left-radius: 80px;
   border-bottom-right-radius: 80px;
 }
 
-.payment-form-container p {
+.payment-form-cont p {
   text-align: center;
   padding-top: 20px;
   color: #fff;
@@ -138,7 +148,7 @@ label {
   display: block;
 }
 
-.icon-container {
+.icon-cont {
   margin-bottom: 20px;
   padding: 7px 0;
   font-size: 24px;
@@ -166,7 +176,7 @@ label {
 
 #profile-section {
   /* float: left; */
-  width: 26vw;
+  /* width: 26vw; */
   background-color: #FFFFFF;
   border: 0.5px solid lightgrey;
   border-radius: 3px;
@@ -177,36 +187,26 @@ hr {
   border-top: 0.5px solid lightgrey;
 }
 
-#content-section {
+.post-cont, .new-post-cont {
   /* float: right; */
   margin-bottom: 3rem;
-  width: 50vw;
+  /* width: 50vw; */
   background-color: #FFFFFF;
   border: 0.5px solid lightgrey;
   border-radius: 3px;
-}
 
-.text-container {
-  padding-left: 1.5rem;
+}
+.new-post-cont{
+  padding: 0 2rem 0 2rem;
+  position: sticky;
+  height: 8rem;
+/* max-height: min-content; */
 }
 
 
 /* --------------nav------------ */
-
-/* main page navigation */
-
-
-/* 
-.container {
-  background-color: #ffffff;
-  padding: 5px 20px 15px 20px;
-  border: 1px solid lightgrey;
-  border-radius: 3px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.09), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
-} */
-
 input[type=text] {
-  width: 90%;
+  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 3px;
@@ -327,7 +327,7 @@ button:focus {
   background-color: var(--primary-highlight-color);
 }
 
-.button-container {
+.button-cont {
   display: flex;
 }
 
