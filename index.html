@@ -1,14 +1,29 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <title>KeyLime</title>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" post=contie=edge">
+    <meta name="description" post=contKeyLime">
+    <meta name="viewport" post=contwidth=device-width, initial-scale=1.0">
+    <meta name="author" post=contAliasger Rasheed, Cameron Dawson">
+    <!-- ADOBE FONTS  -->
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/kmv0kfi.css"> -->
+    <!-- Jost -->
+    <!-- <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" /> -->
+    <!-- Be Vietnam -->
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:100,100i,400,400i,600,600i,800,800i&display=swap"
+      rel="stylesheet">
 
 <head>
   <title>KeyLime</title>
   <!-- meta tags -->
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="KeyLime">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Aliasger Rasheed, Cameron Dawson">
+  <meta http-equiv="X-UA-Compatible" post=contie=edge">
+  <meta name="description" post=contKeyLime">
+  <meta name="viewport" post=contwidth=device-width, initial-scale=1.0">
+  <meta name="author" post=contAliasger Rasheed, Cameron Dawson">
   <!-- ADOBE FONTS  -->
   <!-- <link rel="stylesheet" href="https://use.typekit.net/kmv0kfi.css"> -->
   <!-- Jost -->
@@ -17,6 +32,10 @@
   <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:100,100i,400,400i,600,600i,800,800i&display=swap"
     rel="stylesheet">
 
+    <!-- css files -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/grid.css">
+  </head>
 
   <!-- css files -->
   <link rel="stylesheet" href="css/styles.css">
@@ -33,69 +52,91 @@
           <h1 class="logo-text"> KeyLime </h1>
         </a>
       </div>
-          <div id="search-container" class="centerer">
-            <input type="text" class="centerer" placeholder="Search..">
-          </div>
-          <div id="nav-container" class="row">
-            <!-- <a class="active" href="index.html">Home</a> -->
-            <a href="account">Account</a>
-            <a href="subscription">Subscription</a>
-        </div>
+      <div id="search-cont" class="centerer">
+        <input type="text" class="centerer" placeholder="Search..">
+      </div>
+      <div id="nav-cont" class="row">
+        <!-- <a class="active" href="index.html">Home</a> -->
+        <a href="account">Account</a>
+        <a href="subscription">Subscription</a>
+      </div>
     </nav>
   </header>
 
-  <main>
+  <main class="grid x24">
     <aside id="profile-section">
-        <h2> Allie Webber </h2>
-      <div class="image-container">
+      <h2> Allie Webber </h2>
+      <figure>
         <img src="images/profile-picture1.jpg" alt="Profile Picture">
-        <a class="text-container">
-          <h3> About </h3>
+      </figure>
 
-          <p> Studies criminology at UBC</p>
-          <p> Lives in Vancouver, British Columbia</p>
-          <p> Born in Boise, Idaho</p>
-      </div>
+      <h3> About </h3>
+
+      <p> Studies criminology at UBC</p>
+      <p> Lives in Vancouver, British Columbia</p>
+      <p> Born in Boise, Idaho</p>
+
     </aside>
+    
+    <section id="feed"> 
+    <div class="new-post-cont">
 
-    <div id="content-section">
-      <div class="text-container">
-        <h3> Create Post </h3>
+      <h3> Create Post </h3>
 
-        <div id="create-post-container">
-          <input type="text" placeholder="What's going on?">
-        </div>
+      <div id="create-post-cont">
+        <input type="text" placeholder="What's going on?">
+
       </div>
     </div>
 
-    <article id="content-section">
-      <div class="text-container">
+      <article class="post-cont">
+        
         <h3> Jane Wensley </h3>
       </div>
-      <div class="image-container">
+      <figure>
         <img src="images/post-image1.jpeg" alt="Post Image">
-      </div>
-      <div class="text-container">
-        <h3> Comments </h3>
-        <p> <strong> Julan Frohen </strong> &nbsp;&nbsp; Beautiful photo! When are you heading back home?</p>
+      </figure>
 
-      </div>
+      <h3> Comments </h3>
+      <p> <strong> Julan Frohen </strong> &nbsp;&nbsp; Beautiful photo! When are you heading back home?</p>
+
+
     </article>
-    <article id="content-section">
-      <div class="text-container">
-        <h3> Collin Maeda </h3>
-        <p> Hey guys, would anyone happen to have a place for me to stay tomorrow night in Van? </p>
-      </div>
+    <article class="post-cont">
+
+      <h3> Collin Maeda </h3>
+      <p> Hey guys, would anyone happen to have a place for me to stay tomorrow night in Van? </p>
+      
       <hr>
-      <div class="text-container">
-        <h3> Comments </h3>
+      
+      <h3> Comments </h3>
+      
+      <p> <strong> Eve Feller </strong> &nbsp;&nbsp; Try Lynn!! I think she has a place you can stay</p>
 
-        <p> <strong> Eve Feller </strong> &nbsp;&nbsp; Try Lynn!! I think she has a place you can stay</p>
-
-      </div>
+      
     </article>
+  </section>
   </main>
 
-</body>
+ </body>
+
+                    <h3> Collin Maeda </h3>
+                    <p> Hey guys, would anyone happen to have a place for me to stay tomorrow night in Van? </p>
+
+                    <hr>
+
+                    <h3> Comments </h3>
+
+                    <p> <strong> Eve Feller </strong> &nbsp;&nbsp; Try Lynn!! I think she has a place you can stay</p>
+
+                    <p> Hey guys, would anyone happen to have a place for me to stay tomorrow night in Van? </p>
+
+
+
+                  </article>
+                </section>
+              </main>
+
+  </body>
 
 </html>
