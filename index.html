@@ -29,26 +29,93 @@
 
 <body>
 
-    <header>
-        <nav id="nav-bar" class="top-bar row">
-            <div id="logo-cont" class="centerer row">
+    <main id="login" class="row">
 
-                <a href="index.html">
+        <section class="new-user"> 
+
+            <div id="" class=" row">
+
                     <h1 class="logo-text"> KeyLime </h1>
-                </a>
+                    <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No </p>
             </div>
-            <div id="login-cont" class="centerer">
-                <div>
+            <div id="new-user-form">
 
-                    <label for="login-username">User Name</label>
-                    <input type="text" id="login-username" class="" placeholder="John Doe">
+                <label for="signup-name">create a new username</label>
+                <input type="text" id="login-username" class="" placeholder="johndoe99">
+                <label for="display-name">choose a display name</label>
+                <input type="text" id="login-username" class="" placeholder="John Doe">
+                <label for="new-password">devise a new password</label>
+                <input type="text" id="login-username" class="" placeholder="password">
+                <label for="confirm-password">confirm password</label>
+                <input type="text" id="login-username" class="" placeholder="re-enter password">
+            </div>
+            <article id="sub-cont">
+
+                <section class="sub-options">
+
+                    <div class="text-container">
+                        <h2> Subscribe to KeyLime. </h2>
+                        <h4> Recieve full access to KeyLime and never worry about your privacy again.</h4>
+                    </div>
+
+                    <div class="text-container row">
+                        <h3 class="centerer"> 5.99 CAD + tax/month</h3>
+                        <a href="" class="button-link centerer">Join us</a>
+
+                    </div>
+                </section>
+
+                <section class="sub-options">
+                    <div class="text-container">
+                        <h2> Single time payment. </h2>
+                        <h4> Pay a one time fee and renew your account as you see fit.</h4>
+                    </div>
+
+                    <div class="text-container row">
+                        <h3 class="centerer"> 5.99 CAD + tax for 1 month</h3>
+                        <a href="" class="button-link centerer">Join us</a>
+                    </div>
+
+                    <div class="text-container row">
+                        <h3 class="centerer"> 15.99 CAD + tax for 3 month</h3>
+                        <a href="" class="button-link centerer">Join us</a>
+                    </div>
+
+                    <div class="text-container row">
+                        <h3 class="centerer"> 29.99 CAD + tax for 6 month</h3>
+                        <a href="" class="button-link centerer">Join us</a>
+                    </div>
+
+                    <div class="text-container row">
+                        <h3 class="centerer"> 55.99 CAD + tax for 1 year</h3>
+                        <a href="" class="button-link centerer">Join us</a>
+                    </div>
+                </section>
+            </article>
+            <div class="login-buttons">
+            <button id="login-btn" onclick="location.href='index.html'">login</button>
+            </div>
+        </section>
+        <aside id="returning-user" class="">
+            <h2>Returning User</h2>
+            <div id="login-cont" class="">
+                <div>
+                    <!-- <label for="login-username">User Name</label> -->
+                    <input type="text" id="login-username" class="" placeholder="username">
                 </div>
                 <div>
-
-                    <label for="login-pass"> Password</label>
-                    <input type="text" id="login-pass" class="" placeholder="********">
+                    <!-- <label for="login-pass"> Password</label> -->
+                    <input type="text" id="login-pass" class="" placeholder="password">
                 </div>
-                <div id="login-buttons">
+                <div id="two-factor">
+                    <h3>Two-factor Verification</h3>
+                    <input type="radio" id="app-ver" name="class" value="app-ver" checked>
+                    <label for="app-ver">App Verification</label>
+
+                    <input type="radio" id="email-ver" name="class" value="email-ver" checked>
+                    <label for="email-ver">Email Verification</label>
+                </div>
+                <div class="login-buttons">
                     <button id="login-btn" onclick="location.href='index.html'">login</button>
                     <button id="forgot-pass-btn">forgot password</button>
                 </div>
@@ -58,4 +125,6 @@
             <!-- <a href="account.html">Account</a> -->
             <!-- <a href="subscription.html">Subscription</a> -->
             </div>
-        </nav>
+        </aside>
+    </main>
+</body>

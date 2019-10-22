@@ -32,10 +32,17 @@ a {
 }
 
 p {
-  font-size: 0.7em;
+  /* font-size: 0.7em; */
 }
-label{
+
+label {
   color: var(--primary-font);
+}
+
+#login h1 {
+  font-size: 8rem;
+  /* padding: 0; */
+  margin: 3rem 0rem;
 }
 
 /* --------------nav------------ */
@@ -60,23 +67,15 @@ label{
 }
 
 #nav-bar a {
-  /* float: left; */
   display: block;
   color: black;
   text-align: center;
-  /* padding: 14px 16px; */
   text-decoration: none;
   font-size: 14px;
 }
 
 #logo-cont {
   padding-left: 2rem;
-  /* width: 15vw; */
-  /* float: left; */
-  /* display: flex;
-  overflow: hidden;
-  justify-content: center;
-  align-items: center; */
 }
 
 #logo-cont a {
@@ -84,12 +83,7 @@ label{
 
 }
 
-/* #search-nav-cont {
-  padding: 1.25rem;
-} */
-
-#search-cont {
-
+] #search-cont {
   padding-left: 8vw;
 }
 
@@ -97,12 +91,15 @@ label{
   padding: 1rem;
 
 }
-#nav-cont a{
+
+#nav-cont a {
   transition: color 0.3s;
 }
-#nav-cont a:hover:focus{
-color: green;
+
+#nav-cont a:hover:focus {
+  color: green;
 }
+
 nav {
   z-index: 3;
 }
@@ -111,12 +108,10 @@ nav {
 main {
   padding: 10vh 15vw 0vw 5vw;
   padding-top: 8rem;
-  /* padding-left: 15vw;
-  padding-right: 15vw;
-  padding-top: 10.5rem; */
 }
 
 body {
+  margin: 0;
   background-color: #F5F5F5;
 }
 
@@ -126,9 +121,7 @@ aside {
 
 #feed {}
 
-#subscription {
-  /* padding-left: 10rem; */
-}
+#subscription {}
 
 .post-cont h3,
 .post-cont p {
@@ -138,9 +131,11 @@ aside {
 .post-cont figure {
   margin: 0.1rem;
 }
-#settings-cont{
+
+#settings-cont {
   padding: 2rem;
 }
+
 #settings-cont,
 .sub-options {
   background-color: #FFFFFF;
@@ -150,9 +145,7 @@ aside {
 }
 
 #settings-cont h3,
-p {
-  /* padding-left: 2rem; */
-}
+p {}
 
 .stats-cont {
   height: 4rem;
@@ -165,10 +158,10 @@ p {
 }
 
 .stats-cont h3 {
-  /* padding-bottom: 1rem; */
   margin: 0;
 }
-.text-container{
+
+.text-container {
   min-height: 5rem;
 }
 
@@ -194,8 +187,58 @@ p {
 /* ~~~ https://www.w3schools.com/howto/howto_css_checkout_form.asp used for checkout form  ~~~ */
 
 
+/* ----------------LOGIN PAGE-------------- */
+
+main#login {
+  padding: 0rem;
+  margin: 0rem;
+}
+
+/* ///////////////// */
+#login aside {
+  background-color: var(--primary-highlight-color);
+  padding: 18rem 2rem 1rem 4rem;
+  color: white;
+}
+
+#login aside label {
+  color: var(--secondary-color);
+
+}
+
+#login aside h2 {
+  font-size: 3rem;
+}
+
+#login aside h3 {
+  font-size: 2rem;
+}
+
+/* #login input[type="text"]:focus, */
+
+#login input[type="text"]:focus,
+#login input[type="text"]:hover {
+  border: solid var(--primary-highlight-color);
+  border-radius: 3px;
+  /* transform: scale(1.1); */
+}
+
+#login aside input[type="text"]:focus,
+#login aside input[type="text"]:hover {
+  border: solid var(--secondary-highlight-color);
+  border-radius: 3px;
+  /* transform: scale(1.1); */
+}
+
+#login .new-user {
+  padding: 5rem 6rem;
+}
+
+aside#returning-user {}
+
+
+
 label {
-  /* margin-bottom: 10px; */
   display: block;
 }
 
@@ -226,8 +269,6 @@ label {
 }
 
 #profile-section {
-  /* float: left; */
-  /* width: 26vw; */
   background-color: #FFFFFF;
   border: 0.5px solid lightgrey;
   border-radius: 3px;
@@ -240,9 +281,7 @@ hr {
 
 .post-cont,
 .new-post-cont {
-  /* float: right; */
   margin-bottom: 3rem;
-  /* width: 50vw; */
   background-color: #FFFFFF;
   border: 0.5px solid lightgrey;
   border-radius: 3px;
@@ -253,7 +292,6 @@ hr {
   padding: 0 2rem 0 2rem;
   position: sticky;
   height: 8rem;
-  /* max-height: min-content; */
 }
 
 
@@ -265,6 +303,7 @@ input[type=text] {
   border-radius: 3px;
   font-family: var(--secondary-font);
   font-weight: 400;
+  height: 2rem;
 }
 
 
@@ -290,9 +329,7 @@ h1.first:nth-child(1) {
 
 }
 
-[type="radio"]:checked+label {
-  /* color:var(--secondary-color); */
-}
+[type="radio"]:checked+label {}
 
 [type="radio"]:checked+label:before,
 [type="radio"]:not(:checked)+label:before {
@@ -312,7 +349,7 @@ h1.first:nth-child(1) {
   content: '';
   width: 12px;
   height: 12px;
-  background: var(--primary-highlight-color);
+  background: var(--secondary-highlight-color);
   position: absolute;
   top: 4px;
   left: 4px;
@@ -356,7 +393,8 @@ button {
   text-decoration: none;
   transition-property: all;
   transition-duration: 0.5s;
-  border: 2.5px solid var(--primary-highlight-color);
+  border: 3.5px solid var(--primary-highlight-color);
+  border-radius: 0.2em;
 }
 
 .button-link:hover,
@@ -368,11 +406,12 @@ button {
 button {
   flex-grow: 1;
   color: var(--primary-highlight-color);
-  border: solid 2px var(--primary-highlight-color);
+  border: solid 3.5px var(--primary-highlight-color);
   font-family: var(--primary-font);
   font-weight: 400;
   font-size: 1rem;
   margin: 0.2rem;
+  border-radius: 0.2em;
 }
 
 button:hover,
@@ -441,26 +480,47 @@ a.img-link>img:hover,
   /* border-color: var(--primary-highlight-color); */
   filter: brightness(100%);
 }
-#login-cont{
-  margin:0rem 2rem 0rem auto;
+
+/* ------------------------------LOGIN PAGE */
+#login-cont {
+  margin: 0rem 2rem 0rem auto;
 }
-#login-cont label { font-size: 0.2rem;
+
+#login-cont label {
+  /* font-size: 0.2rem; */
 }
-#login-cont div{
+
+#login-cont div {
   margin: 1rem 0.2rem;
 }
-#login-buttons{
-  margin-top: 0.5rem;;
+
+.login-buttons {
+  margin-top: 0.5rem;
+  ;
 }
-#login-cont input{
-  height:1.5rem;
+
+#login-cont input {
+  /* height: 1.5rem; */
 
 }
-#login-buttons button{
-  font-size: 0.5rem;
+
+.login-buttons button {
+  /* font-size: 0.5rem; */
   margin-top: 1rem;
-  padding: 0.2rem 1rem 0.2rem 1rem;
-  height: 1.5rem;
+  padding: 0.3rem 1.2rem 0.3rem 1.2rem;
+  /* height: 1.5rem; */
+  font-weight: 400;
+}
+
+#returning-user button{
+  color: white;
+  border-color: white;
+}
+#returning-user button:hover,
+#returning-user button:focus{
+  color: var(--primary-highlight-color);
+  border-color: white;
+  background-color: white;
 }
 
 /*---------------media queries------------------ */
