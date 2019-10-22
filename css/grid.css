@@ -128,6 +128,18 @@ aside div {
         
         #login-cont{display:flex;}
 
+    #login-cont *{
+        flex-basis: 100%;
+    }
+
+#login aside{
+    flex-basis: 40%;
+    flex-grow: 1;
+}
+#login section.new-user{
+    flex-grow: 1;
+    flex-basis: 60%;
+}
 
 /* -------------media queries-------------- */
 @media screen and (max-width:1300px) {

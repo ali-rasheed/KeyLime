@@ -1,11 +1,9 @@
-@import "fonts.css";
-
 /* TEXT STYLING */
 :root {
   --primary-color: #383838;
   --secondary-color: #F5F5F5;
-  --primary-highlight-color: #89C97B;
-  --secondary-highlight-color: #43b929;
+  --secondary-highlight-color: rgb(72, 116, 59);
+  --primary-highlight-color: #6CB05D;
   --primary-font: "League Spartan";
   --secondary-font: "Be Vietnam";
 }
