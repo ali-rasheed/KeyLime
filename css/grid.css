@@ -125,7 +125,7 @@ aside div {
     margin: 0;
 }
 
-        
+
         #login-cont{display:flex;}
 
     #login-cont *{
@@ -171,7 +171,7 @@ aside div {
 
 @media screen and (max-width: 1080px) {
 
-    /* 
+    /*
     #search-cont input {
         max-width: 80vw;
     } */
