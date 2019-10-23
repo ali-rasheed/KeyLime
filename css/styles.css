@@ -230,7 +230,7 @@ main#login {
   /* transform: scale(1.1); */
 }
 
-#login .new-user {
+section.new-user {
   padding: 5rem 6rem;
 }
 
@@ -335,7 +335,7 @@ h1.first:nth-child(1) {
 [type="radio"]:not(:checked)+label:before {
   content: '';
   position: absolute;
-  left: 0;
+  left: -3px;
   top: 0;
   width: 18px;
   height: 18px;
@@ -352,7 +352,7 @@ h1.first:nth-child(1) {
   background: var(--secondary-highlight-color);
   position: absolute;
   top: 4px;
-  left: 4px;
+  left: 1px;
   border-radius: 100%;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
@@ -409,7 +409,7 @@ button {
   border: solid 3.5px var(--primary-highlight-color);
   font-family: var(--primary-font);
   font-weight: 400;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   margin: 0.2rem;
   border-radius: 0.2em;
 }
@@ -484,6 +484,7 @@ a.img-link>img:hover,
 /* ------------------------------LOGIN PAGE */
 #login-cont {
   margin: 0rem 2rem 0rem auto;
+  flex-wrap: wrap;
 }
 
 #login-cont label {
@@ -497,12 +498,25 @@ a.img-link>img:hover,
 .login-buttons {
   margin-top: 0.5rem;
   ;
+  padding-left: 0.1rem;
 }
 
 #login-cont input {
   /* height: 1.5rem; */
+  /* width: 80%; */
+  /* max-width: 70vw; */
 
 }
+
+#new-user-form div {
+  padding: 0rem 0rem 2rem 0rem;
+  padding-right: 1rem;
+}
+
+#new-user-form div label {
+  padding: 0rem 0rem 0.5rem 0rem;
+}
+
 
 .login-buttons button {
   /* font-size: 0.5rem; */
@@ -512,16 +526,22 @@ a.img-link>img:hover,
   font-weight: 400;
 }
 
-#returning-user button{
+#returning-user button {
   color: white;
   border-color: white;
 }
+
 #returning-user button:hover,
-#returning-user button:focus{
+#returning-user button:focus {
   color: var(--primary-highlight-color);
   border-color: white;
   background-color: white;
 }
+
+#returning-user h1 {
+  display: none;
+}
+
 
 /*---------------media queries------------------ */
 /* https://www.w3schools.com/howto/howto_css_checkout_form.asp used for checkout form */
