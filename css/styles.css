@@ -159,6 +159,65 @@ p {}
   margin-bottom: 2vh;
 }
 
+.payment-form-div {
+  padding:3rem;
+}
+/* ~~~ https://www.w3schools.com/howto/howto_css_checkout_form.asp used for checkout form  ~~~ */
+
+.col-25 {
+  -ms-flex: 25%;
+  /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%;
+  /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%;
+  /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+
+label {
+  margin-bottom: 10px;
+  display: block;
+  margin-top:1rem;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+/* ~~~ https://www.w3schools.com/howto/howto_css_checkout_form.asp used for checkout form  ~~~ */
 .stats-cont h3 {
   margin: 0;
 }

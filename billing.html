@@ -9,17 +9,17 @@
   <meta name="description" post=contKeyLime">
   <meta name="viewport" post=contwidth=device-width, initial-scale=1.0">
   <meta name="author" post="Aliasger Rasheed, Cameron Dawson">
-  <!-- ADOBE FONTS  -->
-  <!-- <link rel="stylesheet" href="https://use.typekit.net/kmv0kfi.css"> -->
-  <!-- Jost -->
-  <!-- <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" /> -->
-  <!-- Be Vietnam -->
-  <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:100,100i,400,400i,600,600i,800,800i&display=swap"
-    rel="stylesheet">
+    <!-- ADOBE FONTS  -->
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/kmv0kfi.css"> -->
+    <!-- Jost -->
+    <!-- <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" /> -->
+    <!-- Be Vietnam -->
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:100,100i,400,400i,600,600i,800,800i&display=swap"
+      rel="stylesheet">
 
-  <!-- css files -->
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/grid.css">
+    <!-- css files -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/grid.css">
 </head>
 
 <body>
@@ -43,73 +43,80 @@
     </nav>
   </header>
 
-  <main class="grid x24">
-      <section id="subscription">
+  <main class="grid">
+    <div class="main-page-div"
+      <div id="profile-section">
+        <div class="payment-form-div">
+          <!-- https://www.w3schools.com/howto/howto_css_checkout_form.asp Used for Payment form!! -->
 
-          <div class="row">
-            <div class="col-75">
-              <div class="container">
-                <form action="/action_page.php">
+          <div id="subscription">
 
-                  <div class="row">
-                    <div class="col-50">
-                      <h3>Billing Address</h3>
-                      <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-                      <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
-                      <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                      <input type="text" id="email" name="email" placeholder="john@example.com">
-                      <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-                      <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
-                      <label for="city"><i class="fa fa-institution"></i> City</label>
-                      <input type="text" id="city" name="city" placeholder="New York">
+            <div class="row">
+              <div class="col-75">
+                <div class="container">
+                  <form action="/action_page.php">
 
-                      <div class="row">
-                        <div class="col-50">
-                          <label for="state">State</label>
-                          <input type="text" id="state" name="state" placeholder="NY">
-                        </div>
-                        <div class="col-50">
-                          <label for="zip">Zip</label>
-                          <input type="text" id="zip" name="zip" placeholder="10001">
-                        </div>
-                      </div>
-                    </div>
+                    <div class="row">
+                      <div class="col-50">
+                        <h3>Billing Address</h3>
+                        <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                        <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                        <input type="text" id="email" name="email" placeholder="john@example.com">
+                        <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                        <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                        <label for="city"><i class="fa fa-institution"></i> City</label>
+                        <input type="text" id="city" name="city" placeholder="New York">
 
-                    <div class="col-50">
-                      <h3>Payment</h3>
-                      <label for="cname">Name on Card</label>
-                      <input type="text" id="cname" name="cardname" placeholder="John More Doe">
-                      <label for="ccnum">Credit card number</label>
-                      <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
-                      <label for="expmonth">Exp Month</label>
-                      <input type="text" id="expmonth" name="expmonth" placeholder="September">
-
-                      <div class="row">
-                        <div class="col-50">
-                          <label for="expyear">Exp Year</label>
-                          <input type="text" id="expyear" name="expyear" placeholder="2018">
-                        </div>
-                        <div class="col-50">
-                          <label for="cvv">CVV</label>
-                          <input type="text" id="cvv" name="cvv" placeholder="352">
+                        <div class="row">
+                          <div class="col-50">
+                            <label for="state">State</label>
+                            <input type="text" id="state" name="state" placeholder="NY">
+                          </div>
+                          <div class="col-50">
+                            <label for="zip">Zip</label>
+                            <input type="text" id="zip" name="zip" placeholder="10001">
+                          </div>
                         </div>
                       </div>
-                    </div>
 
-                  </div>
-                  <label>
-                    <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as
-                    billing
-                  </label>
-                  <input type="submit" value="Continue to checkout" class="btn">
-                </form>
+                      <div class="col-50">
+                        <h3>Payment</h3>
+                        <label for="cname">Name on Card</label>
+                        <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                        <label for="ccnum">Credit card number</label>
+                        <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                        <label for="expmonth">Exp Month</label>
+                        <input type="text" id="expmonth" name="expmonth" placeholder="September">
+
+                        <div class="row">
+                          <div class="col-50">
+                            <label for="expyear">Exp Year</label>
+                            <input type="text" id="expyear" name="expyear" placeholder="2018">
+                          </div>
+                          <div class="col-50">
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" name="cvv" placeholder="352">
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <label>
+                      <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as
+                      billing
+                    </label>
+                    <input type="submit" value="Continue to checkout" class="btn">
+                  </form>
+                </div>
               </div>
+              <!-- https://www.w3schools.com/howto/howto_css_checkout_form.asp Used for Payment form!! -->
             </div>
-            <!-- https://www.w3schools.com/howto/howto_css_checkout_form.asp Used for Payment form!! -->
-          </div>
-        </section>
+
+      </div>
+    </div>
   </main>
 
-</body>]
+</body>
 
 </html>
