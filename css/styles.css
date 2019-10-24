@@ -55,7 +55,7 @@ label {
 }
 
 .keylime-logotype {
-  /* letter-spacing: -0.2em; */
+  letter-spacing: -0.14em;
 }
 
 /* --------------nav------------ */
@@ -208,7 +208,7 @@ p {}
   font-size: 1.2rem;
 }
 
-sub .stats-cont h3 {
+sub .stats-cont h3 {}
 .payment-form-div {
   padding:3rem;
 }
