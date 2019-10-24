@@ -33,12 +33,10 @@
 
         <section class="new-user">
 
-            <div id="" class=" row">
+            <div id="intro-copy" class=" row">
 
-                <h1 class="logo-text"> KeyLime </h1>
-                <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was
-                    born and I will give you a complete account of the system, and expound the actual teachings of the
-                    great explorer of the truth, the master-builder of human happiness. No </p>
+                <h1 class="logo-text keylime-logotype"> KeyLime </h1>
+                <p>Keylime is a social media platform made for <em> you</em> in a time where corporations do not respect your privacy and sell your personal information </p>
             </div>
             <div id="new-user-form" class="row">
                 <div>
@@ -58,9 +56,9 @@
                     <input type="text" id="login-username" class="" placeholder="re-enter password">
                 </div>
             </div>
-            <article id="sub-cont">
+            <form id="sub-cont">
 
-                <section class="sub-options">
+                <fieldset class="sub-options">
 
                     <div class="text-container">
                         <h2> Subscribe to KeyLime. </h2>
@@ -68,45 +66,45 @@
                     </div>
 
                     <div class="text-container row">
-                        <h3 class="centerer"> 5.99 CAD + tax/month</h3>
-                        <a href="" class="button-link centerer">Join us</a>
+                        <!-- <a href="" class="button-link centerer">Join us</a> -->
+                        <input type="radio" id="months-sub" name="group-1" value="months-sub" class=" centerer">
+                        <label for="months-sub" lass="centerer"> 5.99 CAD + tax/month</label>
 
                     </div>
-                </section>
+                </fieldset>
 
-                <section class="sub-options">
+                <fieldset class="sub-options">
                     <div class="text-container">
                         <h2> Single time payment. </h2>
                         <h4> Pay a one time fee and renew your account as you see fit.</h4>
                     </div>
-
                     <div class="text-container row">
-                        <h3 class="centerer"> 5.99 CAD + tax for 1 month</h3>
-                        <a href="" class="button-link centerer">Join us</a>
+                        <input type="radio" id="months-1" name="group-1" value="months-1" class="button-ink centerer">
+                        <label for="months-1" class="centerer"> 5.99 CAD + tax for 1 month</label>
                     </div>
-
                     <div class="text-container row">
-                        <h3 class="centerer"> 15.99 CAD + tax for 3 month</h3>
-                        <a href="" class="button-link centerer">Join us</a>
+                        <!-- <a href="" class="button-link centerer">Join us</a> -->
+                        <input type="radio" id="months-3" name="group-1" value="months-3" class=" centerer">
+                        <label class="centerer" for="months-3"> 15.99 CAD + tax for 3 month</label>
                     </div>
-
                     <div class="text-container row">
-                        <h3 class="centerer"> 29.99 CAD + tax for 6 month</h3>
-                        <a href="" class="button-link centerer">Join us</a>
+                        <input type="radio" id="months-6" name="group-1" value="months-6" class=" centerer">
+                        <!-- <a href="#" class="button-link centerer">Join us</a> -->
+                        <label class="centerer" for="months-6"> 29.99 CAD + tax for 6 month</label>
                     </div>
-
                     <div class="text-container row">
-                        <h3 class="centerer"> 55.99 CAD + tax for 1 year</h3>
-                        <a href="" class="button-link centerer">Join us</a>
+                        <input type="radio" id="year-1" name="group-1" value="year-1" class=" centerer">
+                        <!-- <a href="#" class="button-link centerer">Join us</a> -->
+                        <label class="centerer" for="year-1"> 55.99 CAD + tax for 1 year</label>
                     </div>
-                </section>
-            </article>
+                </fieldset>
+            </form>
             <div class="login-buttons">
-                <button id="login-btn" onclick="location.href='index.html'">login</button>
+                <button id="login-btn" onclick="location.href='homepage.html'">Sign Up</button>
             </div>
         </section>
         <aside id="returning-user" class="">
-            <h1>KeyLime</h1>
+            <h1 class="keylime-logotype">KeyLime</h1>
             <h2>Returning User</h2>
             <div id="login-cont" class="">
                 <div>
@@ -119,14 +117,14 @@
                 </div>
                 <div id="two-factor">
                     <h3>Two-factor Verification</h3>
-                    <input type="radio" id="app-ver" name="class" value="app-ver" checked>
+                    <input class="green" type="radio" id="app-ver" name="class" value="app-ver" checked>
                     <label for="app-ver">App Verification</label>
 
-                    <input type="radio" id="email-ver" name="class" value="email-ver" checked>
+                    <input class="green" type="radio" id="email-ver" name="class" value="email-ver" checked>
                     <label for="email-ver">Email Verification</label>
                 </div>
                 <div class="login-buttons">
-                    <button id="login-btn" onclick="location.href='index.html'">login</button>
+                    <button id="login-btn" onclick="location.href='homepage.html'">login</button>
                     <button id="forgot-pass-btn">forgot password</button>
                 </div>
             </div>

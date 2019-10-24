@@ -5,7 +5,6 @@
 .grid {
     display: grid;
     /* grid-template-columns: repeat(24, 1fr); */
-    /* grid-template-rows: auto; */
     /* flex-wrap: wrap; */
 
 }
@@ -148,9 +147,6 @@ aside div {
     flex-basis: 50%;
     flex-grow: 1;
 }
-.new-user .login-buttons button{
-max-width: 30vw;
-}
     .new-user .login-buttons{
         /* display: flex; */
     
@@ -160,7 +156,7 @@ max-width: 30vw;
 
 }
 #new-user-form div{
-flex-wrap: wrap;    flex-basis: 50%;
+    flex-wrap: wrap;    flex-basis: 50%;
 }
 /* -------------media queries-------------- */
 @media screen and (max-width:1300px) {
@@ -180,7 +176,7 @@ flex-wrap: wrap;    flex-basis: 50%;
     #settings-cont {
         grid-column: 5/13;
     }
-
+    
     
     
     aside#returning-user {
@@ -190,15 +186,18 @@ flex-wrap: wrap;    flex-basis: 50%;
         flex-grow: 1;
         flex-basis: 50%;
     }
-section.new-user{
-    padding: 15vw;
-}
+    section.new-user{
+        padding: 15vw;
+    }
 }
 
 @media screen and (max-width:1200px) {
     main {
         padding: 10vh 7vw 0vh 5vw;
     }
+                .new-user .login-buttons button{
+                max-width: 30vw;
+                }
 }
 
 @media screen and (max-width: 1080px) {
@@ -210,13 +209,13 @@ section.new-user{
         .new-user div h1 {
             display: none;
         }
-    
+        
         #returning-user h1 {
             display: block;
         }
-    
-    /* 
-    #search-cont input {
+        
+        /* 
+        #search-cont input {
         max-width: 80vw;
     } */
     #search-cont {
@@ -296,6 +295,9 @@ section.new-user{
 }
 
 @media screen and (max-width: 650px) {
+    .new-user .login-buttons button{
+        max-width: 80vw;
+        }
     #nav-cont {
         flex-basis: 100%;
         justify-content: center;
