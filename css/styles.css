@@ -131,7 +131,9 @@ aside {
 .post-cont figure {
   margin: 0.1rem;
 }
-
+.account figure {
+  margin: 0.1rem;
+}
 #settings-cont {
   padding: 2rem;
 }
