@@ -57,7 +57,14 @@ label {
 .keylime-logotype {
   letter-spacing: -0.14em;
 }
-
+#billing{
+  padding: 10vh 10vw;
+  margin-top: 5vh;
+}
+#billing input[type="submit"]{
+  width: 100%;
+  /* font-family: ; */
+}
 /* --------------nav------------ */
 .top-bar {
   position: fixed;
