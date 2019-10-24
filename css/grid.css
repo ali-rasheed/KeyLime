@@ -159,6 +159,9 @@ max-width: 30vw;
     align-items: center;
 
 }
+#new-user-form div{
+flex-wrap: wrap;    flex-basis: 50%;
+}
 /* -------------media queries-------------- */
 @media screen and (max-width:1300px) {
     aside {
@@ -185,6 +188,7 @@ max-width: 30vw;
     }
     #new-user-form div{
         flex-grow: 1;
+        flex-basis: 50%;
     }
 section.new-user{
     padding: 15vw;
