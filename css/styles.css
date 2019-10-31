@@ -26,7 +26,8 @@ h1 strong {
 }
 
 p,
-a, label {
+a,
+label {
   font-family: var(--secondary-font);
   font-weight: 400;
 }
@@ -57,14 +58,17 @@ label {
 .keylime-logotype {
   letter-spacing: -0.14em;
 }
-#billing{
+
+#billing {
   padding: 10vh 10vw;
   margin-top: 5vh;
 }
-#billing input[type="submit"]{
+
+#billing input[type="submit"] {
   width: 100%;
   /* font-family: ; */
 }
+
 /* --------------nav------------ */
 .top-bar {
   position: fixed;
@@ -156,6 +160,19 @@ aside {
   margin: 0.1rem;
 }
 
+.post-cont figcaption {
+  padding: 1rem 0 0 1.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.post-cont input[type="text"] {
+  border-width: 1px;
+  border-color: lightgrey;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
 .account figure {
   margin: 0.1rem;
 }
@@ -195,7 +212,8 @@ p {}
 .new-user .text-container input {
   opacity: 0;
   position: fixed;
-  width: 0;}
+  width: 0;
+}
 
 .new-user .text-container input[type="radio"]:checked+label {
   background-color: var(--primary-highlight-color);
@@ -216,9 +234,11 @@ p {}
 }
 
 sub .stats-cont h3 {}
+
 .payment-form-div {
-  padding:3rem;
+  padding: 3rem;
 }
+
 /* ~~~ https://www.w3schools.com/howto/howto_css_checkout_form.asp used for checkout form  ~~~ */
 
 .col-25 {
@@ -249,7 +269,7 @@ sub .stats-cont h3 {}
 label {
   margin-bottom: 10px;
   display: block;
-  margin-top:1rem;
+  margin-top: 1rem;
 }
 
 .icon-container {
@@ -349,6 +369,16 @@ main#login {
   /* transform: scale(1.1); */
 }
 
+::placeholder {
+  padding-left: 0.5rem;
+  opacity: 1;
+}
+:-ms-input-placeholder {  padding-left: 0.5rem;
+}
+::-ms-input-placeholder {
+  padding-left: 0.5rem;
+}
+
 section.new-user {
   padding: 5rem 6rem;
 }
@@ -400,7 +430,7 @@ hr {
 
 .post-cont,
 .new-post-cont {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   background-color: #FFFFFF;
   border: 0.5px solid lightgrey;
   border-radius: 3px;
@@ -535,13 +565,43 @@ button {
 }
 
 button:hover,
-button:focus {
+button:focus,
+button:active,
+button.active {
   color: white;
   background-color: var(--primary-highlight-color);
 }
 
 .button-cont {
   display: flex;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.group-tabs{
+  margin-bottom: 1rem;;
+}
+.group-tabs button {
+  margin: 0;
+  font-size: 0.9rem;
+  border-color: var(--secondary-highlight-color);
+  border: solid 1px;
+  border-radius: 0;
+}
+.group-tabs button.active{
+  border: none;
+}
+.group-tabs button:first-child{
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.group-tabs button:last-child{
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 
 .text-link p {
@@ -621,9 +681,7 @@ a.img-link>img:hover,
   padding-left: 0.1rem;
 }
 
-#login-cont input {
-
-}
+#login-cont input {}
 
 #new-user-form div {
   padding: 0rem 0rem 2rem 0rem;

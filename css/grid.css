@@ -147,17 +147,21 @@ aside div {
     flex-basis: 50%;
     flex-grow: 1;
 }
-    .new-user .login-buttons{
-        /* display: flex; */
-    
+
+.new-user .login-buttons {
+    /* display: flex; */
+
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-#new-user-form div{
-    flex-wrap: wrap;    flex-basis: 50%;
+
+#new-user-form div {
+    flex-wrap: wrap;
+    flex-basis: 50%;
 }
+
 /* -------------media queries-------------- */
 @media screen and (max-width:1300px) {
     aside {
@@ -170,86 +174,95 @@ aside div {
     }
 
     main {
-        padding: 10vh 7vw 0vh 5vw;
+        padding: 18h 7vw 0vh 5vw;
     }
 
     #settings-cont {
         grid-column: 5/13;
     }
-    
-    
-    
+
     aside#returning-user {
         padding: 1rem 15vw;
     }
-    #new-user-form div{
+
+    #new-user-form div {
         flex-grow: 1;
         flex-basis: 50%;
     }
-    section.new-user{
+
+    section.new-user {
         padding: 15vw;
+    }
+
+    .group-tabs * {
+        font-size: 0.8rem;
+padding-left: 0.1rem;
+padding-right: 0.1rem;
+padding-top: 0.1rem;
+padding-bottom: 0.1rem;
     }
 }
 
 @media screen and (max-width:1200px) {
     main {
-        padding: 10vh 7vw 0vh 5vw;
+        /* padding: 10vh 7vw 0vh 5vw; */
     }
-                .new-user .login-buttons button{
-                max-width: 30vw;
-                }
+
+    .new-user .login-buttons button {
+        max-width: 30vw;
+    }
 }
 
 @media screen and (max-width: 1080px) {
     main#login {
         flex-wrap: wrap-reverse;
-        
+
     }
-    
-        .new-user div h1 {
-            display: none;
-        }
-        
-        #returning-user h1 {
-            display: block;
-        }
-        
-        /* 
+
+    .new-user div h1 {
+        display: none;
+    }
+
+    #returning-user h1 {
+        display: block;
+    }
+
+    /* 
         #search-cont input {
         max-width: 80vw;
     } */
     #search-cont {
         /* flex-basis: unset; */
     }
-    
+
     #search-cont input {
         /* flex-basis: unset; */
         max-width: 30vw;
-        
+
     }
-    
+
     #nav-cont a {
         justify-content: center;
     }
-    
+
     aside {
         grid-column: 1/6;
     }
-    
+
     aside.accounts {
         grid-column: 1/13;
 
     }
-    
+
     aside.accounts div {
         grid-column: span 6
     }
-    
+
     #settings-cont {
         grid-column: 1/13;
         padding: 1.8rem;
     }
-    
+
     .new-post-cont,
     #feed {
         grid-column: 6/13;
@@ -264,40 +277,41 @@ aside div {
     #nav-cont {
         flex-basis: 100%;
     }
-    
+
     #nav-cont a {
         justify-content: center;
         flex-basis: 50%;
     }
-    
+
     main {
         padding-top: 10rem;
     }
-    
+
     aside {
         display: none;
-        
+
     }
 
     aside#returning-user {
         display: block;
         /* padding: 5rem; */
     }
-    
+
     section#new-user {
         padding: 2rem;
     }
-    
-    #new-user-form div{
+
+    #new-user-form div {
         flex-basis: 50%;
         /* flex-grow: 1; */
     }
 }
 
 @media screen and (max-width: 650px) {
-    .new-user .login-buttons button{
+    .new-user .login-buttons button {
         max-width: 80vw;
-        }
+    }
+
     #nav-cont {
         flex-basis: 100%;
         justify-content: center;
@@ -310,8 +324,8 @@ aside div {
     #search-cont input {
         max-width: 80vw;
     }
-    
-    
+
+
     #search-cont input {
         max-width: 80vw;
     }
@@ -320,7 +334,8 @@ aside div {
     #feed {
         grid-column: 1/13;
     }
-    #new-user-form div{
+
+    #new-user-form div {
         flex-basis: 100%;
     }
 }
