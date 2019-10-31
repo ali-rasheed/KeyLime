@@ -206,7 +206,6 @@ p {}
   font-size: 1rem;
 }
 
-/* https://codepen.io/RRoberts/pen/kXvVrR/ */
 .new-user .text-container input {
   opacity: 0;
   position: fixed;
@@ -715,6 +714,14 @@ a.img-link>img:hover,
   display: none;
 }
 
+footer{
+  width: 100%;
+  background-color: #fff;
+  display: flex;
 
-/*---------------media queries------------------ */
-/* https://www.w3schools.com/howto/howto_css_checkout_form.asp used for checkout form */
+}
+footer *{
+  flex-grow: 1;
+text-align: center;
+padding-top: 2rem;
+padding-bottom: 2rem;}
