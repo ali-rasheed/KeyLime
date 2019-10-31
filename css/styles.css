@@ -154,6 +154,9 @@ aside {
 .post-cont figure {
   margin: 0.1rem;
 }
+.post-cont img{
+  min-width: 100%;
+}
 
 .post-cont figcaption {
   padding: 1rem 0 0 1.5rem;
