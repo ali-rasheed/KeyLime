@@ -544,6 +544,19 @@ button:focus {
   display: flex;
 }
 
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.group-tabs button{
+  font-size: 0.9rem;
+  border-color: var(--secondary-highlight-color);
+border: solid 1px}
+
+
 .text-link p {
   padding: 1rem;
 }
