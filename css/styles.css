@@ -33,7 +33,6 @@ label {
 }
 
 p {
-  /* font-size: 0.7em; */
 }
 
 label {
@@ -42,7 +41,6 @@ label {
 
 #login h1 {
   font-size: 8rem;
-  /* padding: 0; */
   margin: 3rem 0rem 0rem 0rem;
 }
 
@@ -99,7 +97,7 @@ label {
 }
 
 #logo-cont {
-  padding-left: 2rem;
+  padding-left: 0rem;
 }
 
 #logo-cont a {
@@ -107,20 +105,17 @@ label {
 
 }
 
-] #search-cont {
+#search-cont {
   padding-left: 8vw;
 }
 
 #nav-cont a {
   padding: 1rem;
-
-}
-
-#nav-cont a {
   transition: color 0.3s;
+  text-align: center;
 }
 
-#nav-cont a:hover:focus {
+#nav-cont a:hover, #nav-cont a:focus {
   color: green;
 }
 

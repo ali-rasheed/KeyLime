@@ -73,27 +73,31 @@ aside div {
 }
 
 #nav-cont {
-    flex-basis: 25%;
+    flex-basis: 25%; flex-grow: 1;
     flex-wrap: nowrap;
 }
 
 #nav-cont a {
-    justify-content: end;
+    flex-grow: 1;
+    /* justify-content: end; */
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
 }
 
 #search-cont {
     flex-basis: 50%;
+    flex-grow: 1;
 }
 
 #search-cont input {
     max-width: 30vw;
+    margin-left:1rem;
+    margin-right: 1rem;
 }
 
 #logo-cont {
-    flex-basis: 25%;
+    flex-basis: 20%;
 }
 
 #settings-cont {
@@ -172,6 +176,7 @@ aside div {
     #feed {
         grid-column: 5/13;
     }
+    nav
 
     main {
         padding: 18h 7vw 0vh 5vw;
@@ -196,10 +201,10 @@ aside div {
 
     .group-tabs * {
         font-size: 0.8rem;
-padding-left: 0.1rem;
-padding-right: 0.1rem;
-padding-top: 0.1rem;
-padding-bottom: 0.1rem;
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
     }
 }
 
@@ -227,22 +232,23 @@ padding-bottom: 0.1rem;
         display: block;
     }
 
-    /* 
-        #search-cont input {
-        max-width: 80vw;
-    } */
     #search-cont {
-        /* flex-basis: unset; */
+    }
+#logo-cont h1{
+margin-bottom: 1rem;
+margin-top: 1rem;
+}
+    #search-cont input {
+        max-width: 30vw;
     }
 
-    #search-cont input {
-        /* flex-basis: unset; */
-        max-width: 30vw;
-
+    #nav-cont {
+        flex-grow: 1;
     }
 
     #nav-cont a {
         justify-content: center;
+        flex-grow: 1;
     }
 
     aside {
